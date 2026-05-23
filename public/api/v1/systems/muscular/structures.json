@@ -1,0 +1,72 @@
+{
+  "count": 13,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "name": "Músculo masseter",
+      "slug": "musculo-masseter",
+      "url": "/api/v1/systems/muscular/structures/musculo-masseter"
+    },
+    {
+      "name": "Músculo temporal",
+      "slug": "musculo-temporal",
+      "url": "/api/v1/systems/muscular/structures/musculo-temporal"
+    },
+    {
+      "name": "Músculo esternocleidomastóideo",
+      "slug": "musculo-esternocleidomastoideo",
+      "url": "/api/v1/systems/muscular/structures/musculo-esternocleidomastoideo"
+    },
+    {
+      "name": "Músculo peitoral maior",
+      "slug": "musculo-peitoral-maior",
+      "url": "/api/v1/systems/muscular/structures/musculo-peitoral-maior"
+    },
+    {
+      "name": "Músculo diafragma",
+      "slug": "musculo-diafragma",
+      "url": "/api/v1/systems/muscular/structures/musculo-diafragma"
+    },
+    {
+      "name": "Músculo trapézio",
+      "slug": "musculo-trapezio",
+      "url": "/api/v1/systems/muscular/structures/musculo-trapezio"
+    },
+    {
+      "name": "Músculo deltoide",
+      "slug": "musculo-deltoide",
+      "url": "/api/v1/systems/muscular/structures/musculo-deltoide"
+    },
+    {
+      "name": "Músculo bíceps braquial",
+      "slug": "musculo-biceps-braquial",
+      "url": "/api/v1/systems/muscular/structures/musculo-biceps-braquial"
+    },
+    {
+      "name": "Músculo tríceps braquial",
+      "slug": "musculo-triceps-braquial",
+      "url": "/api/v1/systems/muscular/structures/musculo-triceps-braquial"
+    },
+    {
+      "name": "Músculo glúteo máximo",
+      "slug": "musculo-gluteo-maximo",
+      "url": "/api/v1/systems/muscular/structures/musculo-gluteo-maximo"
+    },
+    {
+      "name": "Músculo quadríceps femoral",
+      "slug": "musculo-quadriceps-femoral",
+      "url": "/api/v1/systems/muscular/structures/musculo-quadriceps-femoral"
+    },
+    {
+      "name": "Músculo gastrocnêmio",
+      "slug": "musculo-gastrocnemio",
+      "url": "/api/v1/systems/muscular/structures/musculo-gastrocnemio"
+    },
+    {
+      "name": "Músculo tibial anterior",
+      "slug": "musculo-tibial-anterior",
+      "url": "/api/v1/systems/muscular/structures/musculo-tibial-anterior"
+    }
+  ]
+}

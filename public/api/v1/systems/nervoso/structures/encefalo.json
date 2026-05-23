@@ -1,0 +1,18 @@
+{
+  "id": "encefalo",
+  "globalId": "nervoso/encefalo",
+  "name": "Encéfalo",
+  "system": {
+    "name": "Sistema nervoso",
+    "slug": "nervoso",
+    "url": "/api/v1/systems/nervoso"
+  },
+  "section": {
+    "id": "visita",
+    "title": "Visita ao museu"
+  },
+  "group": {
+    "id": "roteiro",
+    "title": "Visita ao museu"
+  }
+}

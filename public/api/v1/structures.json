@@ -1,0 +1,322 @@
+{
+  "count": 63,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "name": "Crânio",
+      "slug": "esqueletico/cranio",
+      "url": "/api/v1/systems/esqueletico/structures/cranio"
+    },
+    {
+      "name": "Mandíbula",
+      "slug": "esqueletico/mandibula",
+      "url": "/api/v1/systems/esqueletico/structures/mandibula"
+    },
+    {
+      "name": "Coluna cervical",
+      "slug": "esqueletico/coluna-cervical",
+      "url": "/api/v1/systems/esqueletico/structures/coluna-cervical"
+    },
+    {
+      "name": "Coluna torácica",
+      "slug": "esqueletico/coluna-toracica",
+      "url": "/api/v1/systems/esqueletico/structures/coluna-toracica"
+    },
+    {
+      "name": "Coluna lombar",
+      "slug": "esqueletico/coluna-lombar",
+      "url": "/api/v1/systems/esqueletico/structures/coluna-lombar"
+    },
+    {
+      "name": "Sacro",
+      "slug": "esqueletico/sacro",
+      "url": "/api/v1/systems/esqueletico/structures/sacro"
+    },
+    {
+      "name": "Costelas",
+      "slug": "esqueletico/costelas",
+      "url": "/api/v1/systems/esqueletico/structures/costelas"
+    },
+    {
+      "name": "Esterno",
+      "slug": "esqueletico/esterno",
+      "url": "/api/v1/systems/esqueletico/structures/esterno"
+    },
+    {
+      "name": "Escápula",
+      "slug": "esqueletico/escapula",
+      "url": "/api/v1/systems/esqueletico/structures/escapula"
+    },
+    {
+      "name": "Clavícula",
+      "slug": "esqueletico/clavicula",
+      "url": "/api/v1/systems/esqueletico/structures/clavicula"
+    },
+    {
+      "name": "Úmero",
+      "slug": "esqueletico/umero",
+      "url": "/api/v1/systems/esqueletico/structures/umero"
+    },
+    {
+      "name": "Rádio",
+      "slug": "esqueletico/radio",
+      "url": "/api/v1/systems/esqueletico/structures/radio"
+    },
+    {
+      "name": "Ulna",
+      "slug": "esqueletico/ulna",
+      "url": "/api/v1/systems/esqueletico/structures/ulna"
+    },
+    {
+      "name": "Osso do quadril",
+      "slug": "esqueletico/osso-do-quadril",
+      "url": "/api/v1/systems/esqueletico/structures/osso-do-quadril"
+    },
+    {
+      "name": "Fêmur",
+      "slug": "esqueletico/femur",
+      "url": "/api/v1/systems/esqueletico/structures/femur"
+    },
+    {
+      "name": "Patela",
+      "slug": "esqueletico/patela",
+      "url": "/api/v1/systems/esqueletico/structures/patela"
+    },
+    {
+      "name": "Tíbia",
+      "slug": "esqueletico/tibia",
+      "url": "/api/v1/systems/esqueletico/structures/tibia"
+    },
+    {
+      "name": "Fíbula",
+      "slug": "esqueletico/fibula",
+      "url": "/api/v1/systems/esqueletico/structures/fibula"
+    },
+    {
+      "name": "Músculo masseter",
+      "slug": "muscular/musculo-masseter",
+      "url": "/api/v1/systems/muscular/structures/musculo-masseter"
+    },
+    {
+      "name": "Músculo temporal",
+      "slug": "muscular/musculo-temporal",
+      "url": "/api/v1/systems/muscular/structures/musculo-temporal"
+    },
+    {
+      "name": "Músculo esternocleidomastóideo",
+      "slug": "muscular/musculo-esternocleidomastoideo",
+      "url": "/api/v1/systems/muscular/structures/musculo-esternocleidomastoideo"
+    },
+    {
+      "name": "Músculo peitoral maior",
+      "slug": "muscular/musculo-peitoral-maior",
+      "url": "/api/v1/systems/muscular/structures/musculo-peitoral-maior"
+    },
+    {
+      "name": "Músculo diafragma",
+      "slug": "muscular/musculo-diafragma",
+      "url": "/api/v1/systems/muscular/structures/musculo-diafragma"
+    },
+    {
+      "name": "Músculo trapézio",
+      "slug": "muscular/musculo-trapezio",
+      "url": "/api/v1/systems/muscular/structures/musculo-trapezio"
+    },
+    {
+      "name": "Músculo deltoide",
+      "slug": "muscular/musculo-deltoide",
+      "url": "/api/v1/systems/muscular/structures/musculo-deltoide"
+    },
+    {
+      "name": "Músculo bíceps braquial",
+      "slug": "muscular/musculo-biceps-braquial",
+      "url": "/api/v1/systems/muscular/structures/musculo-biceps-braquial"
+    },
+    {
+      "name": "Músculo tríceps braquial",
+      "slug": "muscular/musculo-triceps-braquial",
+      "url": "/api/v1/systems/muscular/structures/musculo-triceps-braquial"
+    },
+    {
+      "name": "Músculo glúteo máximo",
+      "slug": "muscular/musculo-gluteo-maximo",
+      "url": "/api/v1/systems/muscular/structures/musculo-gluteo-maximo"
+    },
+    {
+      "name": "Músculo quadríceps femoral",
+      "slug": "muscular/musculo-quadriceps-femoral",
+      "url": "/api/v1/systems/muscular/structures/musculo-quadriceps-femoral"
+    },
+    {
+      "name": "Músculo gastrocnêmio",
+      "slug": "muscular/musculo-gastrocnemio",
+      "url": "/api/v1/systems/muscular/structures/musculo-gastrocnemio"
+    },
+    {
+      "name": "Músculo tibial anterior",
+      "slug": "muscular/musculo-tibial-anterior",
+      "url": "/api/v1/systems/muscular/structures/musculo-tibial-anterior"
+    },
+    {
+      "name": "Coração",
+      "slug": "cardiovascular/coracao",
+      "url": "/api/v1/systems/cardiovascular/structures/coracao"
+    },
+    {
+      "name": "Átrio direito",
+      "slug": "cardiovascular/atrio-direito",
+      "url": "/api/v1/systems/cardiovascular/structures/atrio-direito"
+    },
+    {
+      "name": "Átrio esquerdo",
+      "slug": "cardiovascular/atrio-esquerdo",
+      "url": "/api/v1/systems/cardiovascular/structures/atrio-esquerdo"
+    },
+    {
+      "name": "Ventrículo direito",
+      "slug": "cardiovascular/ventriculo-direito",
+      "url": "/api/v1/systems/cardiovascular/structures/ventriculo-direito"
+    },
+    {
+      "name": "Ventrículo esquerdo",
+      "slug": "cardiovascular/ventriculo-esquerdo",
+      "url": "/api/v1/systems/cardiovascular/structures/ventriculo-esquerdo"
+    },
+    {
+      "name": "Aorta",
+      "slug": "cardiovascular/aorta",
+      "url": "/api/v1/systems/cardiovascular/structures/aorta"
+    },
+    {
+      "name": "Pulmão",
+      "slug": "cardiovascular/pulmao",
+      "url": "/api/v1/systems/cardiovascular/structures/pulmao"
+    },
+    {
+      "name": "Baço",
+      "slug": "cardiovascular/baco",
+      "url": "/api/v1/systems/cardiovascular/structures/baco"
+    },
+    {
+      "name": "Medula espinhal",
+      "slug": "nervoso/medula-espinhal",
+      "url": "/api/v1/systems/nervoso/structures/medula-espinhal"
+    },
+    {
+      "name": "Encéfalo",
+      "slug": "nervoso/encefalo",
+      "url": "/api/v1/systems/nervoso/structures/encefalo"
+    },
+    {
+      "name": "Cerebelo",
+      "slug": "nervoso/cerebelo",
+      "url": "/api/v1/systems/nervoso/structures/cerebelo"
+    },
+    {
+      "name": "Tronco encefálico",
+      "slug": "nervoso/tronco-encefalico",
+      "url": "/api/v1/systems/nervoso/structures/tronco-encefalico"
+    },
+    {
+      "name": "Laringe",
+      "slug": "respiratorio/laringe",
+      "url": "/api/v1/systems/respiratorio/structures/laringe"
+    },
+    {
+      "name": "Traqueia",
+      "slug": "respiratorio/traqueia",
+      "url": "/api/v1/systems/respiratorio/structures/traqueia"
+    },
+    {
+      "name": "Pulmão direito",
+      "slug": "respiratorio/pulmao-direito",
+      "url": "/api/v1/systems/respiratorio/structures/pulmao-direito"
+    },
+    {
+      "name": "Pulmão esquerdo",
+      "slug": "respiratorio/pulmao-esquerdo",
+      "url": "/api/v1/systems/respiratorio/structures/pulmao-esquerdo"
+    },
+    {
+      "name": "Rim",
+      "slug": "urinario/rim",
+      "url": "/api/v1/systems/urinario/structures/rim"
+    },
+    {
+      "name": "Ureter",
+      "slug": "urinario/ureter",
+      "url": "/api/v1/systems/urinario/structures/ureter"
+    },
+    {
+      "name": "Bexiga urinária",
+      "slug": "urinario/bexiga-urinaria",
+      "url": "/api/v1/systems/urinario/structures/bexiga-urinaria"
+    },
+    {
+      "name": "Testículo",
+      "slug": "reprodutor/testiculo",
+      "url": "/api/v1/systems/reprodutor/structures/testiculo"
+    },
+    {
+      "name": "Pênis",
+      "slug": "reprodutor/penis",
+      "url": "/api/v1/systems/reprodutor/structures/penis"
+    },
+    {
+      "name": "Ovário",
+      "slug": "reprodutor/ovario",
+      "url": "/api/v1/systems/reprodutor/structures/ovario"
+    },
+    {
+      "name": "Útero",
+      "slug": "reprodutor/utero",
+      "url": "/api/v1/systems/reprodutor/structures/utero"
+    },
+    {
+      "name": "Língua",
+      "slug": "digestorio/lingua",
+      "url": "/api/v1/systems/digestorio/structures/lingua"
+    },
+    {
+      "name": "Esôfago",
+      "slug": "digestorio/esofago",
+      "url": "/api/v1/systems/digestorio/structures/esofago"
+    },
+    {
+      "name": "Estômago",
+      "slug": "digestorio/estomago",
+      "url": "/api/v1/systems/digestorio/structures/estomago"
+    },
+    {
+      "name": "Fígado",
+      "slug": "digestorio/figado",
+      "url": "/api/v1/systems/digestorio/structures/figado"
+    },
+    {
+      "name": "Vesícula biliar",
+      "slug": "digestorio/vesicula-biliar",
+      "url": "/api/v1/systems/digestorio/structures/vesicula-biliar"
+    },
+    {
+      "name": "Pâncreas",
+      "slug": "digestorio/pancreas",
+      "url": "/api/v1/systems/digestorio/structures/pancreas"
+    },
+    {
+      "name": "Intestino delgado",
+      "slug": "digestorio/intestino-delgado",
+      "url": "/api/v1/systems/digestorio/structures/intestino-delgado"
+    },
+    {
+      "name": "Cólon",
+      "slug": "digestorio/colon",
+      "url": "/api/v1/systems/digestorio/structures/colon"
+    },
+    {
+      "name": "Reto",
+      "slug": "digestorio/reto",
+      "url": "/api/v1/systems/digestorio/structures/reto"
+    }
+  ]
+}

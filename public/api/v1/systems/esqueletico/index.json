@@ -1,0 +1,348 @@
+{
+  "id": 1,
+  "name": "Sistema esquelético",
+  "slug": "esqueletico",
+  "tipo": "Suporte",
+  "emoji": "🦴",
+  "structureCount": 18,
+  "url": "/api/v1/systems/esqueletico",
+  "tagline": "O arcabouço do corpo",
+  "description": "O sistema esquelético é formado por ossos, cartilagens, articulações e estruturas associadas. No corpo humano adulto existem cerca de 206 ossos.",
+  "abilities": [
+    "Sustentação",
+    "Proteção",
+    "Movimento",
+    "Armazenamento mineral",
+    "Hematopoiese",
+    "Reserva energética"
+  ],
+  "fact": "Bebês têm ~270 ossos; muitos se fundem na infância.",
+  "ossada": "Sem mim você viraria gelatina.",
+  "power": 48,
+  "structures": [
+    {
+      "id": "cranio",
+      "globalId": "esqueletico/cranio",
+      "name": "Crânio",
+      "system": {
+        "name": "Sistema esquelético",
+        "slug": "esqueletico",
+        "url": "/api/v1/systems/esqueletico"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "ossos-visita",
+        "title": "Ossos"
+      }
+    },
+    {
+      "id": "mandibula",
+      "globalId": "esqueletico/mandibula",
+      "name": "Mandíbula",
+      "system": {
+        "name": "Sistema esquelético",
+        "slug": "esqueletico",
+        "url": "/api/v1/systems/esqueletico"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "ossos-visita",
+        "title": "Ossos"
+      }
+    },
+    {
+      "id": "coluna-cervical",
+      "globalId": "esqueletico/coluna-cervical",
+      "name": "Coluna cervical",
+      "system": {
+        "name": "Sistema esquelético",
+        "slug": "esqueletico",
+        "url": "/api/v1/systems/esqueletico"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "ossos-visita",
+        "title": "Ossos"
+      }
+    },
+    {
+      "id": "coluna-toracica",
+      "globalId": "esqueletico/coluna-toracica",
+      "name": "Coluna torácica",
+      "system": {
+        "name": "Sistema esquelético",
+        "slug": "esqueletico",
+        "url": "/api/v1/systems/esqueletico"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "ossos-visita",
+        "title": "Ossos"
+      }
+    },
+    {
+      "id": "coluna-lombar",
+      "globalId": "esqueletico/coluna-lombar",
+      "name": "Coluna lombar",
+      "system": {
+        "name": "Sistema esquelético",
+        "slug": "esqueletico",
+        "url": "/api/v1/systems/esqueletico"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "ossos-visita",
+        "title": "Ossos"
+      }
+    },
+    {
+      "id": "sacro",
+      "globalId": "esqueletico/sacro",
+      "name": "Sacro",
+      "system": {
+        "name": "Sistema esquelético",
+        "slug": "esqueletico",
+        "url": "/api/v1/systems/esqueletico"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "ossos-visita",
+        "title": "Ossos"
+      }
+    },
+    {
+      "id": "costelas",
+      "globalId": "esqueletico/costelas",
+      "name": "Costelas",
+      "system": {
+        "name": "Sistema esquelético",
+        "slug": "esqueletico",
+        "url": "/api/v1/systems/esqueletico"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "ossos-visita",
+        "title": "Ossos"
+      }
+    },
+    {
+      "id": "esterno",
+      "globalId": "esqueletico/esterno",
+      "name": "Esterno",
+      "system": {
+        "name": "Sistema esquelético",
+        "slug": "esqueletico",
+        "url": "/api/v1/systems/esqueletico"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "ossos-visita",
+        "title": "Ossos"
+      }
+    },
+    {
+      "id": "escapula",
+      "globalId": "esqueletico/escapula",
+      "name": "Escápula",
+      "system": {
+        "name": "Sistema esquelético",
+        "slug": "esqueletico",
+        "url": "/api/v1/systems/esqueletico"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "ossos-visita",
+        "title": "Ossos"
+      }
+    },
+    {
+      "id": "clavicula",
+      "globalId": "esqueletico/clavicula",
+      "name": "Clavícula",
+      "system": {
+        "name": "Sistema esquelético",
+        "slug": "esqueletico",
+        "url": "/api/v1/systems/esqueletico"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "ossos-visita",
+        "title": "Ossos"
+      }
+    },
+    {
+      "id": "umero",
+      "globalId": "esqueletico/umero",
+      "name": "Úmero",
+      "system": {
+        "name": "Sistema esquelético",
+        "slug": "esqueletico",
+        "url": "/api/v1/systems/esqueletico"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "ossos-visita",
+        "title": "Ossos"
+      }
+    },
+    {
+      "id": "radio",
+      "globalId": "esqueletico/radio",
+      "name": "Rádio",
+      "system": {
+        "name": "Sistema esquelético",
+        "slug": "esqueletico",
+        "url": "/api/v1/systems/esqueletico"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "ossos-visita",
+        "title": "Ossos"
+      }
+    },
+    {
+      "id": "ulna",
+      "globalId": "esqueletico/ulna",
+      "name": "Ulna",
+      "system": {
+        "name": "Sistema esquelético",
+        "slug": "esqueletico",
+        "url": "/api/v1/systems/esqueletico"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "ossos-visita",
+        "title": "Ossos"
+      }
+    },
+    {
+      "id": "osso-do-quadril",
+      "globalId": "esqueletico/osso-do-quadril",
+      "name": "Osso do quadril",
+      "system": {
+        "name": "Sistema esquelético",
+        "slug": "esqueletico",
+        "url": "/api/v1/systems/esqueletico"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "ossos-visita",
+        "title": "Ossos"
+      }
+    },
+    {
+      "id": "femur",
+      "globalId": "esqueletico/femur",
+      "name": "Fêmur",
+      "system": {
+        "name": "Sistema esquelético",
+        "slug": "esqueletico",
+        "url": "/api/v1/systems/esqueletico"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "ossos-visita",
+        "title": "Ossos"
+      }
+    },
+    {
+      "id": "patela",
+      "globalId": "esqueletico/patela",
+      "name": "Patela",
+      "system": {
+        "name": "Sistema esquelético",
+        "slug": "esqueletico",
+        "url": "/api/v1/systems/esqueletico"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "ossos-visita",
+        "title": "Ossos"
+      }
+    },
+    {
+      "id": "tibia",
+      "globalId": "esqueletico/tibia",
+      "name": "Tíbia",
+      "system": {
+        "name": "Sistema esquelético",
+        "slug": "esqueletico",
+        "url": "/api/v1/systems/esqueletico"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "ossos-visita",
+        "title": "Ossos"
+      }
+    },
+    {
+      "id": "fibula",
+      "globalId": "esqueletico/fibula",
+      "name": "Fíbula",
+      "system": {
+        "name": "Sistema esquelético",
+        "slug": "esqueletico",
+        "url": "/api/v1/systems/esqueletico"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "ossos-visita",
+        "title": "Ossos"
+      }
+    }
+  ]
+}

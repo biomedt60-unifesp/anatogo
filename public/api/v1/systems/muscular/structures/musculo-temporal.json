@@ -1,0 +1,18 @@
+{
+  "id": "musculo-temporal",
+  "globalId": "muscular/musculo-temporal",
+  "name": "Músculo temporal",
+  "system": {
+    "name": "Sistema muscular",
+    "slug": "muscular",
+    "url": "/api/v1/systems/muscular"
+  },
+  "section": {
+    "id": "visita",
+    "title": "Visita ao museu"
+  },
+  "group": {
+    "id": "roteiro",
+    "title": "Visita ao museu"
+  }
+}

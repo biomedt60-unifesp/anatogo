@@ -1,0 +1,18 @@
+{
+  "id": "traqueia",
+  "globalId": "respiratorio/traqueia",
+  "name": "Traqueia",
+  "system": {
+    "name": "Sistema respiratório",
+    "slug": "respiratorio",
+    "url": "/api/v1/systems/respiratorio"
+  },
+  "section": {
+    "id": "visita",
+    "title": "Visita ao museu"
+  },
+  "group": {
+    "id": "roteiro",
+    "title": "Visita ao museu"
+  }
+}

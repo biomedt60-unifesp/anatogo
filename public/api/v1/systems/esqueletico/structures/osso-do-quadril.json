@@ -1,0 +1,18 @@
+{
+  "id": "osso-do-quadril",
+  "globalId": "esqueletico/osso-do-quadril",
+  "name": "Osso do quadril",
+  "system": {
+    "name": "Sistema esquelético",
+    "slug": "esqueletico",
+    "url": "/api/v1/systems/esqueletico"
+  },
+  "section": {
+    "id": "visita",
+    "title": "Visita ao museu"
+  },
+  "group": {
+    "id": "ossos-visita",
+    "title": "Ossos"
+  }
+}

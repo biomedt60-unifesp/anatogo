@@ -1,0 +1,94 @@
+{
+  "id": 5,
+  "name": "Sistema respiratório",
+  "slug": "respiratorio",
+  "tipo": "Gases",
+  "emoji": "🫁",
+  "structureCount": 4,
+  "url": "/api/v1/systems/respiratorio",
+  "tagline": "Ar dentro, vida fora",
+  "description": "Vias aéreas conduzem o ar aos alvéolos, onde ocorre a troca gasosa com o sangue.",
+  "abilities": [
+    "Hematose",
+    "Fonação",
+    "Filtração do ar",
+    "pH sanguíneo"
+  ],
+  "fact": "Alvéolos estendidos cobririam área de um quarto de tênis.",
+  "ossada": "Inspire fundo — e sem correr no laboratório, combinado?",
+  "power": 68,
+  "structures": [
+    {
+      "id": "laringe",
+      "globalId": "respiratorio/laringe",
+      "name": "Laringe",
+      "system": {
+        "name": "Sistema respiratório",
+        "slug": "respiratorio",
+        "url": "/api/v1/systems/respiratorio"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    },
+    {
+      "id": "traqueia",
+      "globalId": "respiratorio/traqueia",
+      "name": "Traqueia",
+      "system": {
+        "name": "Sistema respiratório",
+        "slug": "respiratorio",
+        "url": "/api/v1/systems/respiratorio"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    },
+    {
+      "id": "pulmao-direito",
+      "globalId": "respiratorio/pulmao-direito",
+      "name": "Pulmão direito",
+      "system": {
+        "name": "Sistema respiratório",
+        "slug": "respiratorio",
+        "url": "/api/v1/systems/respiratorio"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    },
+    {
+      "id": "pulmao-esquerdo",
+      "globalId": "respiratorio/pulmao-esquerdo",
+      "name": "Pulmão esquerdo",
+      "system": {
+        "name": "Sistema respiratório",
+        "slug": "respiratorio",
+        "url": "/api/v1/systems/respiratorio"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    }
+  ]
+}

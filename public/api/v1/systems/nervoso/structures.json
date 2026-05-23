@@ -1,0 +1,27 @@
+{
+  "count": 4,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "name": "Medula espinhal",
+      "slug": "medula-espinhal",
+      "url": "/api/v1/systems/nervoso/structures/medula-espinhal"
+    },
+    {
+      "name": "Encéfalo",
+      "slug": "encefalo",
+      "url": "/api/v1/systems/nervoso/structures/encefalo"
+    },
+    {
+      "name": "Cerebelo",
+      "slug": "cerebelo",
+      "url": "/api/v1/systems/nervoso/structures/cerebelo"
+    },
+    {
+      "name": "Tronco encefálico",
+      "slug": "tronco-encefalico",
+      "url": "/api/v1/systems/nervoso/structures/tronco-encefalico"
+    }
+  ]
+}

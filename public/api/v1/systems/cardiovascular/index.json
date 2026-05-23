@@ -1,0 +1,166 @@
+{
+  "id": 3,
+  "name": "Sistema cardiovascular",
+  "slug": "cardiovascular",
+  "tipo": "Transporte",
+  "emoji": "❤️",
+  "structureCount": 8,
+  "url": "/api/v1/systems/cardiovascular",
+  "tagline": "O circuito da vida",
+  "description": "Coração e vasos formam um circuito fechado que distribui oxigênio, nutrientes e hormônios.",
+  "abilities": [
+    "Distribuição O₂",
+    "Remoção CO₂",
+    "Transporte hormonal",
+    "Termorregulação"
+  ],
+  "fact": "Em repouso, o coração bombeia cerca de 5 L de sangue por minuto.",
+  "ossada": "Lub-dub! Compare paredes dos ventrículos — são diferentes por um motivo.",
+  "power": 52,
+  "structures": [
+    {
+      "id": "coracao",
+      "globalId": "cardiovascular/coracao",
+      "name": "Coração",
+      "system": {
+        "name": "Sistema cardiovascular",
+        "slug": "cardiovascular",
+        "url": "/api/v1/systems/cardiovascular"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    },
+    {
+      "id": "atrio-direito",
+      "globalId": "cardiovascular/atrio-direito",
+      "name": "Átrio direito",
+      "system": {
+        "name": "Sistema cardiovascular",
+        "slug": "cardiovascular",
+        "url": "/api/v1/systems/cardiovascular"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    },
+    {
+      "id": "atrio-esquerdo",
+      "globalId": "cardiovascular/atrio-esquerdo",
+      "name": "Átrio esquerdo",
+      "system": {
+        "name": "Sistema cardiovascular",
+        "slug": "cardiovascular",
+        "url": "/api/v1/systems/cardiovascular"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    },
+    {
+      "id": "ventriculo-direito",
+      "globalId": "cardiovascular/ventriculo-direito",
+      "name": "Ventrículo direito",
+      "system": {
+        "name": "Sistema cardiovascular",
+        "slug": "cardiovascular",
+        "url": "/api/v1/systems/cardiovascular"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    },
+    {
+      "id": "ventriculo-esquerdo",
+      "globalId": "cardiovascular/ventriculo-esquerdo",
+      "name": "Ventrículo esquerdo",
+      "system": {
+        "name": "Sistema cardiovascular",
+        "slug": "cardiovascular",
+        "url": "/api/v1/systems/cardiovascular"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    },
+    {
+      "id": "aorta",
+      "globalId": "cardiovascular/aorta",
+      "name": "Aorta",
+      "system": {
+        "name": "Sistema cardiovascular",
+        "slug": "cardiovascular",
+        "url": "/api/v1/systems/cardiovascular"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    },
+    {
+      "id": "pulmao",
+      "globalId": "cardiovascular/pulmao",
+      "name": "Pulmão",
+      "system": {
+        "name": "Sistema cardiovascular",
+        "slug": "cardiovascular",
+        "url": "/api/v1/systems/cardiovascular"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    },
+    {
+      "id": "baco",
+      "globalId": "cardiovascular/baco",
+      "name": "Baço",
+      "system": {
+        "name": "Sistema cardiovascular",
+        "slug": "cardiovascular",
+        "url": "/api/v1/systems/cardiovascular"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    }
+  ]
+}

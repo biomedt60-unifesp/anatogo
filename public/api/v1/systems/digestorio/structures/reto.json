@@ -1,0 +1,18 @@
+{
+  "id": "reto",
+  "globalId": "digestorio/reto",
+  "name": "Reto",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "visita",
+    "title": "Visita ao museu"
+  },
+  "group": {
+    "id": "roteiro",
+    "title": "Visita ao museu"
+  }
+}

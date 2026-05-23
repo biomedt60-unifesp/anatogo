@@ -1,0 +1,184 @@
+{
+  "id": 8,
+  "name": "Sistema digestório",
+  "slug": "digestorio",
+  "tipo": "Digestão",
+  "emoji": "🍽️",
+  "structureCount": 9,
+  "url": "/api/v1/systems/digestorio",
+  "tagline": "Do prato à célula",
+  "description": "Tubo digestório e órgãos anexos processam alimentos e absorvem nutrientes.",
+  "abilities": [
+    "Digestão",
+    "Absorção",
+    "Eliminação",
+    "Metabolismo hepático"
+  ],
+  "fact": "Intestino delgado pode medir mais de 6 metros.",
+  "ossada": "Siga o tubo como um mapa — eu sou seu GPS ósseo.",
+  "power": 114,
+  "structures": [
+    {
+      "id": "lingua",
+      "globalId": "digestorio/lingua",
+      "name": "Língua",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    },
+    {
+      "id": "esofago",
+      "globalId": "digestorio/esofago",
+      "name": "Esôfago",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    },
+    {
+      "id": "estomago",
+      "globalId": "digestorio/estomago",
+      "name": "Estômago",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    },
+    {
+      "id": "figado",
+      "globalId": "digestorio/figado",
+      "name": "Fígado",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    },
+    {
+      "id": "vesicula-biliar",
+      "globalId": "digestorio/vesicula-biliar",
+      "name": "Vesícula biliar",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    },
+    {
+      "id": "pancreas",
+      "globalId": "digestorio/pancreas",
+      "name": "Pâncreas",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    },
+    {
+      "id": "intestino-delgado",
+      "globalId": "digestorio/intestino-delgado",
+      "name": "Intestino delgado",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    },
+    {
+      "id": "colon",
+      "globalId": "digestorio/colon",
+      "name": "Cólon",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    },
+    {
+      "id": "reto",
+      "globalId": "digestorio/reto",
+      "name": "Reto",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    }
+  ]
+}

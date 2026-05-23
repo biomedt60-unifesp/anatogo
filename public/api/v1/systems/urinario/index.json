@@ -1,0 +1,76 @@
+{
+  "id": 6,
+  "name": "Sistema urinário",
+  "slug": "urinario",
+  "tipo": "Filtração",
+  "emoji": "💧",
+  "structureCount": 3,
+  "url": "/api/v1/systems/urinario",
+  "tagline": "Equilíbrio interno",
+  "description": "Rins e vias urinárias eliminam resíduos e regulam volume, pressão e eletrólitos.",
+  "abilities": [
+    "Filtração",
+    "Eliminação",
+    "Pressão arterial",
+    "Eritropoiese"
+  ],
+  "fact": "Filtram ~180 L/dia; quase tudo é reabsorvido.",
+  "ossada": "Dois rins, milhões de néfrons — eficiência pura.",
+  "power": 78,
+  "structures": [
+    {
+      "id": "rim",
+      "globalId": "urinario/rim",
+      "name": "Rim",
+      "system": {
+        "name": "Sistema urinário",
+        "slug": "urinario",
+        "url": "/api/v1/systems/urinario"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    },
+    {
+      "id": "ureter",
+      "globalId": "urinario/ureter",
+      "name": "Ureter",
+      "system": {
+        "name": "Sistema urinário",
+        "slug": "urinario",
+        "url": "/api/v1/systems/urinario"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    },
+    {
+      "id": "bexiga-urinaria",
+      "globalId": "urinario/bexiga-urinaria",
+      "name": "Bexiga urinária",
+      "system": {
+        "name": "Sistema urinário",
+        "slug": "urinario",
+        "url": "/api/v1/systems/urinario"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    }
+  ]
+}

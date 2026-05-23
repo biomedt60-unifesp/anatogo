@@ -1,0 +1,27 @@
+{
+  "count": 4,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "name": "Testículo",
+      "slug": "testiculo",
+      "url": "/api/v1/systems/reprodutor/structures/testiculo"
+    },
+    {
+      "name": "Pênis",
+      "slug": "penis",
+      "url": "/api/v1/systems/reprodutor/structures/penis"
+    },
+    {
+      "name": "Ovário",
+      "slug": "ovario",
+      "url": "/api/v1/systems/reprodutor/structures/ovario"
+    },
+    {
+      "name": "Útero",
+      "slug": "utero",
+      "url": "/api/v1/systems/reprodutor/structures/utero"
+    }
+  ]
+}

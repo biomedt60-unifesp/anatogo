@@ -1,0 +1,94 @@
+{
+  "id": 7,
+  "name": "Sistema reprodutor",
+  "slug": "reprodutor",
+  "tipo": "Reprodução",
+  "emoji": "🧬",
+  "structureCount": 4,
+  "url": "/api/v1/systems/reprodutor",
+  "tagline": "Continuidade da espécie",
+  "description": "Órgãos reprodutivos masculinos e femininos produzem gametas e hormônios sexuais.",
+  "abilities": [
+    "Gametas",
+    "Hormônios",
+    "Gestação",
+    "Caracteres sexuais"
+  ],
+  "fact": "Reserva folicular feminina é definida ao nascer.",
+  "ossada": "Ciência com ética e respeito sempre.",
+  "power": 92,
+  "structures": [
+    {
+      "id": "testiculo",
+      "globalId": "reprodutor/testiculo",
+      "name": "Testículo",
+      "system": {
+        "name": "Sistema reprodutor",
+        "slug": "reprodutor",
+        "url": "/api/v1/systems/reprodutor"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    },
+    {
+      "id": "penis",
+      "globalId": "reprodutor/penis",
+      "name": "Pênis",
+      "system": {
+        "name": "Sistema reprodutor",
+        "slug": "reprodutor",
+        "url": "/api/v1/systems/reprodutor"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    },
+    {
+      "id": "ovario",
+      "globalId": "reprodutor/ovario",
+      "name": "Ovário",
+      "system": {
+        "name": "Sistema reprodutor",
+        "slug": "reprodutor",
+        "url": "/api/v1/systems/reprodutor"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    },
+    {
+      "id": "utero",
+      "globalId": "reprodutor/utero",
+      "name": "Útero",
+      "system": {
+        "name": "Sistema reprodutor",
+        "slug": "reprodutor",
+        "url": "/api/v1/systems/reprodutor"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    }
+  ]
+}

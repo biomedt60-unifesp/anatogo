@@ -1,0 +1,18 @@
+{
+  "id": "estomago",
+  "globalId": "digestorio/estomago",
+  "name": "Estômago",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "visita",
+    "title": "Visita ao museu"
+  },
+  "group": {
+    "id": "roteiro",
+    "title": "Visita ao museu"
+  }
+}

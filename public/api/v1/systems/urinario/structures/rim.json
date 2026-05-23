@@ -1,0 +1,18 @@
+{
+  "id": "rim",
+  "globalId": "urinario/rim",
+  "name": "Rim",
+  "system": {
+    "name": "Sistema urinário",
+    "slug": "urinario",
+    "url": "/api/v1/systems/urinario"
+  },
+  "section": {
+    "id": "visita",
+    "title": "Visita ao museu"
+  },
+  "group": {
+    "id": "roteiro",
+    "title": "Visita ao museu"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "musculo-diafragma",
+  "globalId": "muscular/musculo-diafragma",
+  "name": "Músculo diafragma",
+  "system": {
+    "name": "Sistema muscular",
+    "slug": "muscular",
+    "url": "/api/v1/systems/muscular"
+  },
+  "section": {
+    "id": "visita",
+    "title": "Visita ao museu"
+  },
+  "group": {
+    "id": "roteiro",
+    "title": "Visita ao museu"
+  }
+}

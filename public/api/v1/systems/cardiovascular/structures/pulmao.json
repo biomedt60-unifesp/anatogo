@@ -1,0 +1,18 @@
+{
+  "id": "pulmao",
+  "globalId": "cardiovascular/pulmao",
+  "name": "Pulmão",
+  "system": {
+    "name": "Sistema cardiovascular",
+    "slug": "cardiovascular",
+    "url": "/api/v1/systems/cardiovascular"
+  },
+  "section": {
+    "id": "visita",
+    "title": "Visita ao museu"
+  },
+  "group": {
+    "id": "roteiro",
+    "title": "Visita ao museu"
+  }
+}

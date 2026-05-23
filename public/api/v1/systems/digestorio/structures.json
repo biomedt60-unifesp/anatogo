@@ -1,0 +1,52 @@
+{
+  "count": 9,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "name": "Língua",
+      "slug": "lingua",
+      "url": "/api/v1/systems/digestorio/structures/lingua"
+    },
+    {
+      "name": "Esôfago",
+      "slug": "esofago",
+      "url": "/api/v1/systems/digestorio/structures/esofago"
+    },
+    {
+      "name": "Estômago",
+      "slug": "estomago",
+      "url": "/api/v1/systems/digestorio/structures/estomago"
+    },
+    {
+      "name": "Fígado",
+      "slug": "figado",
+      "url": "/api/v1/systems/digestorio/structures/figado"
+    },
+    {
+      "name": "Vesícula biliar",
+      "slug": "vesicula-biliar",
+      "url": "/api/v1/systems/digestorio/structures/vesicula-biliar"
+    },
+    {
+      "name": "Pâncreas",
+      "slug": "pancreas",
+      "url": "/api/v1/systems/digestorio/structures/pancreas"
+    },
+    {
+      "name": "Intestino delgado",
+      "slug": "intestino-delgado",
+      "url": "/api/v1/systems/digestorio/structures/intestino-delgado"
+    },
+    {
+      "name": "Cólon",
+      "slug": "colon",
+      "url": "/api/v1/systems/digestorio/structures/colon"
+    },
+    {
+      "name": "Reto",
+      "slug": "reto",
+      "url": "/api/v1/systems/digestorio/structures/reto"
+    }
+  ]
+}

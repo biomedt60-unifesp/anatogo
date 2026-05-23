@@ -1,0 +1,79 @@
+{
+  "count": 8,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1,
+      "name": "Sistema esquelético",
+      "slug": "esqueletico",
+      "tipo": "Suporte",
+      "emoji": "🦴",
+      "structureCount": 18,
+      "url": "/api/v1/systems/esqueletico"
+    },
+    {
+      "id": 2,
+      "name": "Sistema muscular",
+      "slug": "muscular",
+      "tipo": "Movimento",
+      "emoji": "💪",
+      "structureCount": 13,
+      "url": "/api/v1/systems/muscular"
+    },
+    {
+      "id": 3,
+      "name": "Sistema cardiovascular",
+      "slug": "cardiovascular",
+      "tipo": "Transporte",
+      "emoji": "❤️",
+      "structureCount": 8,
+      "url": "/api/v1/systems/cardiovascular"
+    },
+    {
+      "id": 4,
+      "name": "Sistema nervoso",
+      "slug": "nervoso",
+      "tipo": "Controle",
+      "emoji": "🧠",
+      "structureCount": 4,
+      "url": "/api/v1/systems/nervoso"
+    },
+    {
+      "id": 5,
+      "name": "Sistema respiratório",
+      "slug": "respiratorio",
+      "tipo": "Gases",
+      "emoji": "🫁",
+      "structureCount": 4,
+      "url": "/api/v1/systems/respiratorio"
+    },
+    {
+      "id": 6,
+      "name": "Sistema urinário",
+      "slug": "urinario",
+      "tipo": "Filtração",
+      "emoji": "💧",
+      "structureCount": 3,
+      "url": "/api/v1/systems/urinario"
+    },
+    {
+      "id": 7,
+      "name": "Sistema reprodutor",
+      "slug": "reprodutor",
+      "tipo": "Reprodução",
+      "emoji": "🧬",
+      "structureCount": 4,
+      "url": "/api/v1/systems/reprodutor"
+    },
+    {
+      "id": 8,
+      "name": "Sistema digestório",
+      "slug": "digestorio",
+      "tipo": "Digestão",
+      "emoji": "🍽️",
+      "structureCount": 9,
+      "url": "/api/v1/systems/digestorio"
+    }
+  ]
+}

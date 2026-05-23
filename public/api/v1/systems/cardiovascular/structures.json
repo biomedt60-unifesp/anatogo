@@ -1,0 +1,47 @@
+{
+  "count": 8,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "name": "Coração",
+      "slug": "coracao",
+      "url": "/api/v1/systems/cardiovascular/structures/coracao"
+    },
+    {
+      "name": "Átrio direito",
+      "slug": "atrio-direito",
+      "url": "/api/v1/systems/cardiovascular/structures/atrio-direito"
+    },
+    {
+      "name": "Átrio esquerdo",
+      "slug": "atrio-esquerdo",
+      "url": "/api/v1/systems/cardiovascular/structures/atrio-esquerdo"
+    },
+    {
+      "name": "Ventrículo direito",
+      "slug": "ventriculo-direito",
+      "url": "/api/v1/systems/cardiovascular/structures/ventriculo-direito"
+    },
+    {
+      "name": "Ventrículo esquerdo",
+      "slug": "ventriculo-esquerdo",
+      "url": "/api/v1/systems/cardiovascular/structures/ventriculo-esquerdo"
+    },
+    {
+      "name": "Aorta",
+      "slug": "aorta",
+      "url": "/api/v1/systems/cardiovascular/structures/aorta"
+    },
+    {
+      "name": "Pulmão",
+      "slug": "pulmao",
+      "url": "/api/v1/systems/cardiovascular/structures/pulmao"
+    },
+    {
+      "name": "Baço",
+      "slug": "baco",
+      "url": "/api/v1/systems/cardiovascular/structures/baco"
+    }
+  ]
+}

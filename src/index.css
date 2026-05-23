@@ -1,0 +1,1710 @@
+@import 'tailwindcss';
+
+/* Pokémon — Pokemon Solid (DaFont: https://www.dafont.com/pt/pokemon.font) */
+@font-face {
+  font-family: 'Pokemon Solid';
+  src: url('./assets/fonts/PokemonSolid.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-pokemon: 'Pokemon Solid', sans-serif;
+  --font-go:
+    -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'SF Pro Display', system-ui, sans-serif;
+  --color-go-bg: #000000;
+  --color-go-brand: #32d4f5;
+  --color-go-header: var(--color-go-brand);
+  --color-go-header-dark: #1686be;
+  --color-go-primary: var(--color-go-brand);
+  --color-go-card: #1c1c1e;
+  --color-go-card-muted: #2c2c2e;
+  --color-go-text: #f5f5f7;
+  --color-go-muted: #8e8e93;
+  --color-go-border: #38383a;
+  --color-go-separator: #545456;
+  --color-go-tab: #8e8e93;
+  --color-go-tab-bg: #1c1c1e;
+  --color-go-placeholder: #636366;
+  --color-go-primary-muted: #1a8fa8;
+  --color-go-highlight: #2c2c2e;
+  --color-go-success-muted: #1a3d24;
+  --color-go-accent-muted: #1a2a2e;
+  --color-go-teal-dot: #5a9ea5;
+  --color-go-teal-dot-done: #b8dce0;
+  --radius-sm: 10px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --space-page: 20px;
+  --nav-bar-height: 48px;
+  --nav-bar-touch: 48px;
+  --status-bar-gap: 24px;
+  --nav-bar-top-inset: var(--status-bar-gap);
+  --safe-area-top: env(safe-area-inset-top, 0px);
+  --safe-area-bottom: env(safe-area-inset-bottom, 0px);
+  --content-top-gutter: var(--status-bar-gap);
+  --top-reserve: calc(var(--safe-area-top) + var(--status-bar-gap));
+  --header-block-height: calc(
+    var(--safe-area-top) + var(--nav-bar-top-inset) + var(--nav-bar-height) + 6px
+  );
+  --tabbar-dock-inset: 10px;
+  --tabbar-bar-height: calc(3.25rem + 10px);
+  --tabbar-bottom-reserve: calc(
+    var(--tabbar-dock-inset) + var(--tabbar-bar-height) + var(--tabbar-dock-inset) +
+      var(--safe-area-bottom)
+  );
+  --tabbar-radius: 999px;
+  --tabbar-pill-radius: 999px;
+  --color-tabbar-surface: rgba(44, 44, 46, 0.82);
+  --color-tab-active-bg: #3c3c3c;
+  --color-tab-active: #30d158;
+  --color-tab-inactive: #8e8e93;
+  --color-dex-accent: #c3ff1f;
+  --color-back-floating-bg: #2c2c2e;
+  --color-back-floating-icon: #f5f5f7;
+  --font-go-auth: 'Nunito', system-ui, -apple-system, sans-serif;
+  --color-go-auth-brand: #1cb6e0;
+  --color-unifesp-green: #2d7a3e;
+  --color-unifesp-green-dark: #1a4d28;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-go);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.47;
+  letter-spacing: -0.022em;
+  background: var(--color-go-bg);
+  color: var(--color-go-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+/* —— App shell (estilo Apple HIG, dark) —— */
+.go-app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100svh;
+  max-width: 428px;
+  margin: 0 auto;
+  background: var(--color-go-bg);
+  border-right: 0.5px solid var(--color-go-border);
+  border-left: 0.5px solid var(--color-go-border);
+  overflow-x: hidden;
+}
+
+.go-header {
+  background: #000000;
+  border-bottom: 0.5px solid var(--color-go-separator);
+  padding: calc(var(--safe-area-top) + var(--nav-bar-top-inset)) var(--space-page) 6px;
+  flex-shrink: 0;
+}
+
+.go-header-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: var(--nav-bar-height);
+  width: 100%;
+}
+
+.go-header-leading,
+.go-header-trailing {
+  position: relative;
+  z-index: 1;
+  flex: 0 0 var(--nav-bar-touch);
+  width: var(--nav-bar-touch);
+  height: var(--nav-bar-touch);
+  display: flex;
+  align-items: center;
+}
+
+.go-header-leading {
+  justify-content: flex-start;
+  margin-left: -8px;
+}
+
+.go-header-trailing {
+  justify-content: flex-end;
+  margin-right: -8px;
+}
+
+.go-header-center {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--nav-bar-touch);
+  pointer-events: none;
+}
+
+.go-header-title {
+  margin: 0;
+  max-width: 100%;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--color-go-text);
+  letter-spacing: -0.022em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.go-header-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: var(--nav-bar-touch);
+  min-height: var(--nav-bar-touch);
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  color: var(--color-go-brand);
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: opacity 0.15s ease;
+}
+
+.go-header-btn--back {
+  justify-content: flex-start;
+  padding-left: 8px;
+}
+
+.go-header-btn:active {
+  opacity: 0.4;
+}
+
+.go-header-btn--spacer {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+/* Botão voltar flutuante (ficha / telas com backTo) */
+.go-back-floating-wrap {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  z-index: 60;
+  width: 100%;
+  max-width: 428px;
+  height: 0;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.go-back-floating {
+  position: absolute;
+  top: var(--top-reserve);
+  left: var(--space-page);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--color-back-floating-bg);
+  border: none;
+  color: var(--color-back-floating-icon);
+  text-decoration: none;
+  pointer-events: auto;
+  -webkit-tap-highlight-color: transparent;
+  box-shadow:
+    0 2px 10px rgba(0, 0, 0, 0.55),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  transition:
+    opacity 0.15s ease,
+    transform 0.1s ease;
+}
+
+.go-back-floating:active {
+  opacity: 0.85;
+  transform: scale(0.96);
+}
+
+.go-app--floating-back .go-main {
+  padding-top: 0;
+}
+
+.go-app--floating-back .go-main.go-detail-screen {
+  padding-top: 0;
+  scroll-padding-top: calc(var(--top-reserve) + 3rem);
+}
+
+.go-main {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1rem var(--space-page) calc(1rem + var(--tabbar-bottom-reserve));
+  box-sizing: border-box;
+  scroll-padding-bottom: var(--tabbar-bottom-reserve);
+}
+
+.go-app:has(.go-tabbar-dock) .go-main {
+  padding-bottom: calc(0.75rem + var(--tabbar-bottom-reserve));
+}
+
+/* Tab bar — estilo Apple Fitness (pill flutuante) */
+.go-tabbar-dock {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  z-index: 50;
+  width: 100%;
+  max-width: 428px;
+  padding: 0 var(--tabbar-dock-inset) calc(var(--tabbar-dock-inset) + var(--safe-area-bottom));
+  transform: translateX(-50%);
+  pointer-events: none;
+  box-sizing: border-box;
+}
+
+.go-tabbar {
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+  gap: 2px;
+  min-height: 3.25rem;
+  padding: 5px 6px;
+  border-radius: var(--tabbar-radius);
+  background: var(--color-tabbar-surface);
+  border: 0.5px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  pointer-events: auto;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.45);
+}
+
+.go-tab {
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.1rem;
+  min-height: 2.75rem;
+  padding: 0.35rem 0.4rem;
+  border-radius: var(--tabbar-pill-radius);
+  text-decoration: none;
+  color: var(--color-tab-inactive);
+  font-size: 0.625rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  -webkit-tap-highlight-color: transparent;
+  transition:
+    color 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.go-tab--active {
+  color: var(--color-tab-active);
+  font-weight: 600;
+  background: var(--color-tab-active-bg);
+}
+
+.go-tab:active {
+  opacity: 0.7;
+}
+
+.go-tab-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 1.375rem;
+  line-height: 1;
+  color: inherit;
+}
+
+.go-tab-icon svg {
+  width: 1.375rem;
+  height: 1.375rem;
+}
+
+.go-tab--active .go-tab-icon svg {
+  color: var(--color-tab-active);
+}
+
+.go-tab--active-anatodex {
+  color: var(--color-dex-accent);
+}
+
+.go-tab--active-anatodex .go-tab-icon svg {
+  color: var(--color-dex-accent);
+}
+
+.go-tab--active-guia {
+  color: var(--color-dex-accent);
+}
+
+.go-tab--active-guia .go-tab-icon {
+  color: var(--color-dex-accent);
+}
+
+.go-tab-icon:has(.go-ossada-avatar--tab) {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #000000;
+  border: 0.5px solid var(--color-go-separator);
+}
+
+.go-tab--active-guia .go-tab-icon:has(.go-ossada-avatar--tab) {
+  border-color: rgba(195, 255, 31, 0.5);
+}
+
+.go-tab-icon .go-ossada-avatar--tab {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  border: none;
+}
+
+.go-tab-label {
+  letter-spacing: -0.01em;
+  line-height: 1.15;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Speech */
+.go-speech {
+  margin: 0.75rem 0;
+}
+
+.go-speech--compact {
+  margin: 0.5rem 0;
+}
+
+.go-speech-speaker {
+  margin: 0 0 0.35rem 0.15rem;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--color-go-muted);
+  letter-spacing: -0.01em;
+}
+
+.go-speech-card {
+  padding: 1rem 1.15rem;
+  background: var(--color-go-card);
+  border: none;
+  border-radius: var(--radius-lg);
+  box-shadow: none;
+  animation: go-fade-in 0.25s ease;
+}
+
+.go-speech--compact .go-speech-card {
+  padding: 0.8rem 1rem;
+}
+
+.go-speech-text {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--color-go-text);
+}
+
+.go-speech--compact .go-speech-text {
+  font-size: 0.85rem;
+}
+
+.go-speech-continue {
+  display: block;
+  margin-top: 0.35rem;
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: var(--color-go-primary);
+  text-align: right;
+  line-height: 1;
+  animation: go-blink 0.85s step-end infinite;
+}
+
+@keyframes go-blink {
+  0%,
+  49% {
+    opacity: 1;
+  }
+  50%,
+  100% {
+    opacity: 0;
+  }
+}
+
+/* —— Apresentação Prof. Ossada (estilo Pokémon GO) —— */
+.go-presentation {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 90;
+  width: 100%;
+  max-width: 428px;
+  padding-top: var(--top-reserve);
+  box-sizing: border-box;
+  background: #2f7378;
+  overflow: hidden;
+}
+
+.go-presentation--under-tabbar {
+  z-index: 1;
+}
+
+.go-presentation-tap {
+  display: flex;
+  flex-direction: column;
+  min-height: 100svh;
+  margin: 0;
+  width: 100%;
+}
+
+.go-presentation-tap.go-tap-screen {
+  min-height: 100svh;
+  margin: 0;
+  width: 100%;
+}
+
+.go-presentation-scene {
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100svh;
+  overflow: hidden;
+}
+
+.go-presentation-spotlight {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: #3d9199;
+  clip-path: polygon(34% 0%, 66% 0%, 100% 100%, 0% 100%);
+}
+
+.go-presentation-npc {
+  position: relative;
+  z-index: 1;
+  max-height: min(72svh, 520px);
+  width: auto;
+  max-width: 95%;
+  object-fit: contain;
+  object-position: center center;
+  filter: drop-shadow(0 8px 24px rgba(0, 0, 0, 0.35));
+  user-select: none;
+  pointer-events: none;
+}
+
+.go-presentation-speech {
+  position: absolute;
+  left: 1rem;
+  right: 1rem;
+  top: max(6.5rem, 47%);
+  bottom: auto;
+  height: 0;
+  overflow: visible;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.go-presentation-speech .go-npc-speech {
+  position: relative;
+  top: 0;
+  margin: 0 auto;
+  transform: none;
+}
+
+.go-presentation-speech .go-npc-speech-box {
+  transform-origin: top center;
+}
+
+.go-presentation-progress {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: calc(1rem + var(--safe-area-bottom));
+  z-index: 4;
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  padding: 0 1rem;
+  pointer-events: none;
+}
+
+.go-presentation--under-tabbar .go-presentation-progress {
+  bottom: calc(var(--tabbar-bottom-reserve) + 0.75rem);
+}
+
+.go-npc-speech {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.go-npc-speech-box {
+  position: relative;
+  padding: 1rem 1.15rem;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.go-npc-speech-box::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 12px solid #fff;
+}
+
+.go-npc-speech-line {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.45;
+  color: #333;
+}
+
+.go-npc-speech-line--name {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: #1a1a1a;
+}
+
+.go-npc-speech-line + .go-npc-speech-line {
+  margin-top: 0.35rem;
+}
+
+.go-progress--presentation {
+  margin-top: 0.75rem;
+}
+
+.go-progress--presentation .go-progress-dot {
+  background: var(--color-go-teal-dot);
+}
+
+.go-progress--presentation .go-progress-dot--on {
+  background: #ffffff;
+}
+
+.go-progress--presentation .go-progress-dot--done {
+  background: var(--color-go-teal-dot-done);
+}
+
+/* Toque na tela para continuar (estilo Pokémon GO) */
+.go-tap-screen {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: calc(100svh - 3.5rem - var(--safe-area-top));
+  margin: -0.85rem -1rem 0;
+  width: calc(100% + 2rem);
+  cursor: pointer;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+
+.go-tap-screen--disabled {
+  cursor: default;
+}
+
+@keyframes go-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.go-link {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-go-primary);
+  text-decoration: none;
+}
+
+.ossada-mini-canvas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 96px;
+  width: 96px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #000;
+  border: 0.5px solid var(--color-go-separator);
+  box-shadow: none;
+}
+
+/* Crop estilo foto de perfil — rosto centralizado */
+.go-ossada-avatar {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 6%;
+  transform: scale(1.65);
+  transform-origin: center 18%;
+}
+
+/* —— Prof. Ossada (mesmo layout da intro, outra foto) —— */
+.go-app--guia-screen {
+  background: #2f7378;
+}
+
+.go-main.go-guia-screen {
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #2f7378;
+}
+
+/* Anatodex — grid minimalista (estilo Apple Fitness) */
+.go-main.go-dex-screen {
+  --dex-accent: var(--color-dex-accent);
+  padding: var(--top-reserve) var(--space-page) 0.25rem;
+  background: var(--color-go-bg);
+  overflow-x: hidden;
+  scroll-padding-top: var(--top-reserve);
+}
+
+.go-dex-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+  margin-bottom: 1.5rem;
+  padding-top: 0;
+}
+
+.go-dex-heading {
+  margin: 0;
+  font-size: 1.125rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: var(--color-go-text);
+}
+
+.go-dex-caught {
+  margin: 0;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  color: var(--color-go-muted);
+  letter-spacing: -0.01em;
+}
+
+.go-dex-caught strong {
+  font-weight: 600;
+  color: var(--color-dex-accent);
+}
+
+.go-dex-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+  min-width: 0;
+}
+
+.go-dex-search {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1rem;
+  background: var(--color-go-card);
+  border-radius: var(--radius-xl);
+  border: none;
+  box-shadow: none;
+}
+
+.go-dex-search-icon {
+  color: var(--color-go-muted);
+  flex-shrink: 0;
+}
+
+.go-dex-search input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--color-go-text);
+  outline: none;
+  letter-spacing: -0.02em;
+}
+
+.go-dex-search input::placeholder {
+  color: var(--color-go-placeholder);
+}
+
+.go-dex-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.go-dex-grid > li {
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+}
+
+.go-dex-card {
+  --dex-accent: var(--color-go-primary);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+  min-height: 7.5rem;
+  padding: 1rem;
+  text-decoration: none;
+  color: inherit;
+  background: var(--color-go-card);
+  border-radius: var(--radius-xl);
+  border: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: opacity 0.15s ease;
+}
+
+.go-dex-card:active {
+  opacity: 0.65;
+}
+
+.go-dex-card-icon-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.65rem;
+  color: var(--dex-accent);
+}
+
+.go-dex-card-icon {
+  display: block;
+  font-size: 1.375rem;
+  line-height: 1;
+}
+
+.go-dex-card-icon svg {
+  width: 1.375rem;
+  height: 1.375rem;
+}
+
+.go-dex-card-title {
+  margin: 0;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--color-go-text);
+  line-height: 1.2;
+}
+
+.go-dex-card-value {
+  margin: 0.5rem 0 0;
+  font-size: 1.375rem;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  color: var(--dex-accent);
+}
+
+.go-dex-card-value-num--solo {
+  color: var(--color-go-text);
+}
+
+.go-dex-card-value-dim {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-go-muted);
+}
+
+.go-dex-card-meta {
+  margin: 0.35rem 0 0;
+  font-size: 0.8125rem;
+  font-weight: 400;
+  color: var(--color-go-muted);
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+.go-dex-empty {
+  text-align: center;
+  padding: 3rem 1.5rem;
+  color: var(--color-go-muted);
+  font-size: 0.9375rem;
+  font-weight: 400;
+}
+
+.go-dex-footer-count {
+  margin: 1.25rem 0 0;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  font-size: 0.8125rem;
+  font-weight: 400;
+  color: var(--color-go-muted);
+  letter-spacing: -0.01em;
+}
+
+/* Busca genérica (outras telas) */
+.go-search {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.65rem 0 0.85rem;
+  padding: 0.65rem 0.85rem;
+  background: var(--color-go-card-muted);
+  border: none;
+  border-radius: var(--radius-md);
+  box-shadow: none;
+}
+
+.go-search-icon {
+  color: var(--color-go-muted);
+  flex-shrink: 0;
+}
+
+.go-search input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-family: inherit;
+  font-size: 0.9rem;
+  color: var(--color-go-text);
+  outline: none;
+}
+
+.go-search input::placeholder {
+  color: var(--color-go-placeholder);
+}
+
+.go-type-chip {
+  display: inline-block;
+  padding: 0.25rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+
+.go-type-chip--outline {
+  background: var(--color-go-card-muted);
+  color: var(--hero-accent, var(--color-go-primary));
+  border: none;
+}
+
+.go-type-chip--sm {
+  font-size: 0.6rem;
+  padding: 0.12rem 0.45rem;
+}
+
+.go-empty {
+  text-align: center;
+  padding: 2rem;
+  color: var(--color-go-muted);
+  font-weight: 600;
+}
+
+/* Detail page */
+.go-detail {
+  margin: -1rem calc(-1 * var(--space-page)) 0;
+}
+
+.go-app--floating-back .go-detail {
+  margin-top: 0;
+}
+
+.go-detail-hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 220px;
+  padding: 2rem 1.5rem 2.75rem;
+  background: var(--color-go-bg);
+}
+
+.go-app--floating-back .go-detail-hero {
+  padding-top: calc(var(--top-reserve) + 2.5rem);
+  min-height: calc(220px + var(--top-reserve));
+}
+
+.go-detail-cp {
+  position: absolute;
+  top: 1rem;
+  right: var(--space-page);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.15rem;
+  color: var(--color-go-muted);
+}
+
+.go-app--floating-back .go-detail-cp {
+  top: calc(var(--top-reserve) + 0.5rem);
+}
+
+.go-detail-cp-label {
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.go-detail-cp-value {
+  font-size: 1.75rem;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  color: var(--color-go-text);
+}
+
+.go-detail-sprite-ring {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  background: var(--color-go-card);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: none;
+}
+
+.go-detail-emoji {
+  display: block;
+  font-size: 3.5rem;
+  line-height: 1;
+  color: var(--hero-accent, var(--color-go-primary));
+}
+
+.go-detail-emoji svg {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.go-detail-sheet {
+  position: relative;
+  margin-top: -20px;
+  padding: 1.75rem var(--space-page) 2.5rem;
+  background: var(--color-go-bg);
+  border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+  border-top: 0.5px solid var(--color-go-separator);
+  box-shadow: none;
+}
+
+.go-detail-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.go-detail-name {
+  margin: 0;
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+  color: var(--color-go-text);
+}
+
+.go-detail-tagline {
+  margin: 0.5rem 0 0;
+  font-weight: 500;
+  font-size: 0.8125rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-go-muted);
+}
+
+.go-detail-desc {
+  margin: 0.5rem 0 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  color: var(--color-go-muted);
+}
+
+.go-detail-caught {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
+  background: var(--color-go-success-muted);
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: #30d158;
+  letter-spacing: -0.02em;
+}
+
+.go-detail-caught-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #30d158;
+  color: #000;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.go-card-section {
+  margin-top: 1.75rem;
+  padding-top: 0;
+  border-top: none;
+}
+
+.go-section-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin: 0 0 0.5rem;
+  padding: 0 0.25rem;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: var(--color-go-muted);
+}
+
+.go-section-count {
+  font-size: 0.8125rem;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: var(--color-go-muted);
+  text-transform: none;
+}
+
+.go-structure-search {
+  display: flex;
+  margin-bottom: 0.75rem;
+}
+
+.go-structure-empty {
+  margin: 0.75rem 0 0;
+  text-align: center;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  color: var(--color-go-muted);
+}
+
+/* Estruturas — lista registrável */
+.go-structure-section {
+  margin-top: 1.25rem;
+}
+
+.go-structure-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background: var(--color-go-card);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.go-structure-list li + li {
+  border-top: 0.5px solid var(--color-go-separator);
+}
+
+.go-structure-list li {
+  margin: 0;
+  padding: 0;
+}
+
+.go-structure-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: none;
+  border-radius: 0;
+  background: var(--color-go-card);
+  font-family: inherit;
+  font-size: 1.0625rem;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  color: var(--color-go-text);
+  line-height: 1.35;
+  text-align: left;
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.go-structure-item:active {
+  background: var(--color-go-highlight);
+}
+
+.go-structure-item-label {
+  flex: 1;
+  min-width: 0;
+}
+
+.go-structure-item--registered .go-structure-item-label {
+  padding-left: 0.65rem;
+  border-left: 3px solid var(--structure-accent, var(--color-go-primary));
+}
+
+.go-structure-item-action {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--color-go-muted);
+  background: var(--color-go-card-muted);
+}
+
+.go-structure-item--registered .go-structure-item-action {
+  color: #000000;
+  background: var(--structure-accent, var(--color-go-primary));
+}
+
+.go-detail-caught--system {
+  margin-top: 1rem;
+}
+
+.go-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.go-chips li {
+  padding: 0.4rem 0.75rem;
+  background: var(--color-go-card-muted);
+  border: none;
+  border-radius: var(--radius-sm);
+  font-size: 0.9375rem;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  color: var(--color-go-text);
+}
+
+.go-detail-p {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: var(--color-go-muted);
+}
+
+.go-fact-card {
+  margin-top: 1.25rem;
+  padding: 1rem 1.1rem;
+  background: var(--color-go-card);
+  border-radius: var(--radius-lg);
+  border: none;
+}
+
+.go-fact-card p {
+  margin: 0;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  color: var(--color-go-muted);
+  font-weight: 400;
+}
+
+.go-npc-block {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  margin-top: 2rem;
+  padding-top: 0;
+  border-top: none;
+}
+
+.go-npc-block .go-speech {
+  flex: 1;
+  margin: 0;
+}
+
+.go-progress {
+  display: flex;
+  justify-content: center;
+  gap: 0.4rem;
+  margin: 0.25rem 0;
+}
+
+.go-progress-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--color-go-border);
+  transition: background 0.2s, transform 0.2s;
+}
+
+.go-progress-dot--on {
+  background: var(--color-go-primary);
+  transform: scale(1.25);
+}
+
+.go-progress-dot--done {
+  background: var(--color-go-primary-muted);
+}
+
+/* Hide tab bar padding on detail/intro when hideTabBar */
+.go-app:not(:has(.go-tabbar-dock)) .go-main {
+  padding-bottom: calc(1rem + var(--safe-area-bottom));
+}
+
+/* —— Tela de carregamento (estilo Pokémon GO) —— */
+.go-loading {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: var(--top-reserve);
+  padding-bottom: var(--safe-area-bottom);
+  box-sizing: border-box;
+  background: var(--color-go-bg);
+  max-width: none;
+  margin: 0;
+}
+
+.go-loading-center {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0 1.5rem;
+}
+
+/* Cérebro + malha de partículas (alzheimer-site) */
+.go-loading-brain-stack {
+  position: relative;
+  width: min(88vw, 560px);
+  flex-shrink: 0;
+  transform-origin: center 36%;
+}
+
+.go-loading--exiting .go-loading-brain-stack {
+  transform: scale(1.46);
+  transition: transform 0.72s cubic-bezier(0.26, 0.88, 0.34, 1);
+  will-change: transform;
+}
+
+.go-loading-brain-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 0;
+  user-select: none;
+  pointer-events: none;
+}
+
+.go-loading-particles-layer {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.go-loading--exiting .go-loading-particles-layer {
+  opacity: 0;
+  transition: opacity 0.28s ease;
+}
+
+.go-loading-particles-layer .go-loading-particles-canvas,
+.go-loading-particles-layer .go-loading-particles-canvas canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.go-loading-footer--exiting {
+  opacity: 0;
+  transform: translateY(10px);
+  transition:
+    opacity 0.34s ease,
+    transform 0.42s cubic-bezier(0.33, 1, 0.32, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .go-loading--exiting .go-loading-brain-stack {
+    transform: none;
+    transition: none;
+    will-change: auto;
+  }
+
+  .go-loading-footer--exiting {
+    transform: none;
+  }
+}
+
+.go-loading-footer {
+  width: 100%;
+  max-width: 428px;
+  padding: 0 1.25rem calc(1.25rem + var(--safe-area-bottom));
+  box-sizing: border-box;
+}
+
+.go-loading-tip {
+  margin: 0 0 1rem;
+  padding: 0 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.45;
+  text-align: center;
+  color: #fff;
+  text-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.9),
+    0 0 12px rgba(0, 0, 0, 0.6);
+}
+
+.go-loading-bar {
+  height: 4px;
+  border-radius: 2px;
+  background: #2a2a2a;
+  overflow: hidden;
+}
+
+.go-loading-bar-fill {
+  height: 100%;
+  border-radius: 2px;
+  background: var(--color-go-brand);
+  transition: width 0.08s linear;
+}
+
+/* —— Login / registro (estilo Pokémon GO — isolado do restante do app) —— */
+.go-login {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  display: flex;
+  flex-direction: column;
+  max-width: 428px;
+  margin: 0 auto;
+  overflow: hidden;
+  background: #000;
+  font-family: var(--font-go-auth);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+.go-login-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 100svh;
+  padding: max(3rem, var(--top-reserve)) 1.5rem calc(1.25rem + var(--safe-area-bottom));
+  box-sizing: border-box;
+}
+
+.go-login-brand {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem 0 2rem;
+}
+
+.go-login-brand-tag {
+  margin: 0 0 0.5rem;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.28em;
+  color: #8ecae6;
+}
+
+.go-brand-anatogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.05rem;
+  margin: 0;
+  font-family: var(--font-pokemon);
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+.go-brand-anat {
+  font-size: clamp(2.4rem, 12vw, 3.5rem);
+  letter-spacing: 0.02em;
+  color: #fec80e;
+  -webkit-text-stroke: 0.06em #355895;
+  paint-order: stroke fill;
+  text-shadow: 0 3px 0 #1a4a6e;
+}
+
+.go-brand-go {
+  font-size: clamp(2.1rem, 11vw, 3.1rem);
+  letter-spacing: 0.06em;
+  color: #1cb6e0;
+  -webkit-text-stroke: 0.06em #355895;
+  paint-order: stroke fill;
+  text-shadow: 0 3px 0 #1686be;
+}
+
+.go-brand-anatogo--sm .go-brand-anat {
+  font-size: 1.15rem;
+  -webkit-text-stroke-width: 0.08em;
+  text-shadow: 0 2px 0 #1a4a6e;
+}
+
+.go-brand-anatogo--sm .go-brand-go {
+  font-size: 1rem;
+  -webkit-text-stroke-width: 0.08em;
+  text-shadow: 0 2px 0 #1686be;
+}
+
+.go-brand-anatogo--lg .go-brand-anat {
+  font-size: clamp(2.75rem, 14vw, 4rem);
+}
+
+.go-brand-anatogo--lg .go-brand-go {
+  font-size: clamp(2.35rem, 12vw, 3.5rem);
+}
+
+.go-header-brand {
+  margin: 0;
+  line-height: 1;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.go-header-center .go-brand-anatogo--sm .go-brand-anat {
+  font-size: 1.1rem;
+}
+
+.go-header-center .go-brand-anatogo--sm .go-brand-go {
+  font-size: 0.95rem;
+}
+
+.go-login-brand-title {
+  margin: 0;
+}
+
+.go-login-brand-sub {
+  margin: 0.65rem 0 0;
+  max-width: 16rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.35;
+  color: #d4d4d4;
+}
+
+.go-login-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.go-login-btn {
+  width: 100%;
+  border-radius: 999px;
+  padding: 0.95rem 1.25rem;
+  font-family: inherit;
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: opacity 0.15s ease, transform 0.1s ease;
+}
+
+.go-login-btn:active {
+  transform: scale(0.98);
+}
+
+.go-login-btn--primary {
+  border: none;
+  background: var(--color-go-auth-brand);
+  color: #fff;
+}
+
+.go-login-btn--outline {
+  border: 2px solid var(--color-go-auth-brand);
+  background: #141414;
+  color: var(--color-go-auth-brand);
+}
+
+.go-login-footer {
+  margin-top: auto;
+  padding-top: 1.5rem;
+}
+
+.go-login-copy {
+  margin: 0;
+  text-align: center;
+  font-size: 0.65rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #6b7280;
+}
+
+/* —— Registro —— */
+.go-register-content {
+  gap: 0;
+}
+
+.go-register-header {
+  flex: 0;
+  padding: 0 0 1.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.go-register-sub {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #9ca3af;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.go-register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+  flex: 1;
+}
+
+.go-register-label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #9ca3af;
+}
+
+.go-register-optional {
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: 0;
+  color: #6b7280;
+}
+
+.go-register-input {
+  border: 2px solid #2a2a2a;
+  border-radius: 12px;
+  padding: 0.8rem 1rem;
+  background: #141414;
+  color: #fff;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.go-register-input::placeholder {
+  color: #4b5563;
+  font-weight: 500;
+}
+
+.go-register-input:focus {
+  outline: none;
+  border-color: var(--color-go-auth-brand);
+}
+
+.go-register-error {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #f87171;
+  text-align: center;
+}
+
+.go-register-back {
+  display: block;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-go-auth-brand);
+  text-decoration: none;
+}
+
+.go-register-back--btn {
+  appearance: none;
+  border: none;
+  background: none;
+  padding: 0;
+  width: 100%;
+  cursor: pointer;
+  font-family: inherit;
+}

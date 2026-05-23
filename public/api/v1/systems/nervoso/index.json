@@ -1,0 +1,94 @@
+{
+  "id": 4,
+  "name": "Sistema nervoso",
+  "slug": "nervoso",
+  "tipo": "Controle",
+  "emoji": "🧠",
+  "structureCount": 4,
+  "url": "/api/v1/systems/nervoso",
+  "tagline": "Comando e integração",
+  "description": "Encéfalo, medula e nervos periféricos coordenam sensação, movimento e funções autonômicas.",
+  "abilities": [
+    "Sensação",
+    "Movimento",
+    "Autonômico",
+    "Cognição"
+  ],
+  "fact": "O cérebro usa cerca de 20% do oxigênio do corpo.",
+  "ossada": "Cada sulco conta uma história.",
+  "power": 56,
+  "structures": [
+    {
+      "id": "medula-espinhal",
+      "globalId": "nervoso/medula-espinhal",
+      "name": "Medula espinhal",
+      "system": {
+        "name": "Sistema nervoso",
+        "slug": "nervoso",
+        "url": "/api/v1/systems/nervoso"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    },
+    {
+      "id": "encefalo",
+      "globalId": "nervoso/encefalo",
+      "name": "Encéfalo",
+      "system": {
+        "name": "Sistema nervoso",
+        "slug": "nervoso",
+        "url": "/api/v1/systems/nervoso"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    },
+    {
+      "id": "cerebelo",
+      "globalId": "nervoso/cerebelo",
+      "name": "Cerebelo",
+      "system": {
+        "name": "Sistema nervoso",
+        "slug": "nervoso",
+        "url": "/api/v1/systems/nervoso"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    },
+    {
+      "id": "tronco-encefalico",
+      "globalId": "nervoso/tronco-encefalico",
+      "name": "Tronco encefálico",
+      "system": {
+        "name": "Sistema nervoso",
+        "slug": "nervoso",
+        "url": "/api/v1/systems/nervoso"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    }
+  ]
+}

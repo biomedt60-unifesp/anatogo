@@ -1,0 +1,27 @@
+{
+  "count": 4,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "name": "Laringe",
+      "slug": "laringe",
+      "url": "/api/v1/systems/respiratorio/structures/laringe"
+    },
+    {
+      "name": "Traqueia",
+      "slug": "traqueia",
+      "url": "/api/v1/systems/respiratorio/structures/traqueia"
+    },
+    {
+      "name": "Pulmão direito",
+      "slug": "pulmao-direito",
+      "url": "/api/v1/systems/respiratorio/structures/pulmao-direito"
+    },
+    {
+      "name": "Pulmão esquerdo",
+      "slug": "pulmao-esquerdo",
+      "url": "/api/v1/systems/respiratorio/structures/pulmao-esquerdo"
+    }
+  ]
+}

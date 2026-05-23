@@ -1,0 +1,18 @@
+{
+  "id": "cranio",
+  "globalId": "esqueletico/cranio",
+  "name": "Crânio",
+  "system": {
+    "name": "Sistema esquelético",
+    "slug": "esqueletico",
+    "url": "/api/v1/systems/esqueletico"
+  },
+  "section": {
+    "id": "visita",
+    "title": "Visita ao museu"
+  },
+  "group": {
+    "id": "ossos-visita",
+    "title": "Ossos"
+  }
+}

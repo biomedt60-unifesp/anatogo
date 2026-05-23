@@ -1,0 +1,18 @@
+{
+  "id": "utero",
+  "globalId": "reprodutor/utero",
+  "name": "Útero",
+  "system": {
+    "name": "Sistema reprodutor",
+    "slug": "reprodutor",
+    "url": "/api/v1/systems/reprodutor"
+  },
+  "section": {
+    "id": "visita",
+    "title": "Visita ao museu"
+  },
+  "group": {
+    "id": "roteiro",
+    "title": "Visita ao museu"
+  }
+}

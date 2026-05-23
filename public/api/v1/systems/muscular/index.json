@@ -1,0 +1,256 @@
+{
+  "id": 2,
+  "name": "Sistema muscular",
+  "slug": "muscular",
+  "tipo": "Movimento",
+  "emoji": "💪",
+  "structureCount": 13,
+  "url": "/api/v1/systems/muscular",
+  "tagline": "Força e postura",
+  "description": "Mais de 600 músculos esqueléticos, além do cardíaco e liso, permitem movimento voluntário e estabilidade.",
+  "abilities": [
+    "Movimento",
+    "Postura",
+    "Calor",
+    "Circulação auxiliar"
+  ],
+  "fact": "O masseter é um dos músculos mais fortes proporcionalmente.",
+  "ossada": "Contraia com saber — na visita, observe origem e inserção.",
+  "power": 50,
+  "structures": [
+    {
+      "id": "musculo-masseter",
+      "globalId": "muscular/musculo-masseter",
+      "name": "Músculo masseter",
+      "system": {
+        "name": "Sistema muscular",
+        "slug": "muscular",
+        "url": "/api/v1/systems/muscular"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    },
+    {
+      "id": "musculo-temporal",
+      "globalId": "muscular/musculo-temporal",
+      "name": "Músculo temporal",
+      "system": {
+        "name": "Sistema muscular",
+        "slug": "muscular",
+        "url": "/api/v1/systems/muscular"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    },
+    {
+      "id": "musculo-esternocleidomastoideo",
+      "globalId": "muscular/musculo-esternocleidomastoideo",
+      "name": "Músculo esternocleidomastóideo",
+      "system": {
+        "name": "Sistema muscular",
+        "slug": "muscular",
+        "url": "/api/v1/systems/muscular"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    },
+    {
+      "id": "musculo-peitoral-maior",
+      "globalId": "muscular/musculo-peitoral-maior",
+      "name": "Músculo peitoral maior",
+      "system": {
+        "name": "Sistema muscular",
+        "slug": "muscular",
+        "url": "/api/v1/systems/muscular"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    },
+    {
+      "id": "musculo-diafragma",
+      "globalId": "muscular/musculo-diafragma",
+      "name": "Músculo diafragma",
+      "system": {
+        "name": "Sistema muscular",
+        "slug": "muscular",
+        "url": "/api/v1/systems/muscular"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    },
+    {
+      "id": "musculo-trapezio",
+      "globalId": "muscular/musculo-trapezio",
+      "name": "Músculo trapézio",
+      "system": {
+        "name": "Sistema muscular",
+        "slug": "muscular",
+        "url": "/api/v1/systems/muscular"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    },
+    {
+      "id": "musculo-deltoide",
+      "globalId": "muscular/musculo-deltoide",
+      "name": "Músculo deltoide",
+      "system": {
+        "name": "Sistema muscular",
+        "slug": "muscular",
+        "url": "/api/v1/systems/muscular"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    },
+    {
+      "id": "musculo-biceps-braquial",
+      "globalId": "muscular/musculo-biceps-braquial",
+      "name": "Músculo bíceps braquial",
+      "system": {
+        "name": "Sistema muscular",
+        "slug": "muscular",
+        "url": "/api/v1/systems/muscular"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    },
+    {
+      "id": "musculo-triceps-braquial",
+      "globalId": "muscular/musculo-triceps-braquial",
+      "name": "Músculo tríceps braquial",
+      "system": {
+        "name": "Sistema muscular",
+        "slug": "muscular",
+        "url": "/api/v1/systems/muscular"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    },
+    {
+      "id": "musculo-gluteo-maximo",
+      "globalId": "muscular/musculo-gluteo-maximo",
+      "name": "Músculo glúteo máximo",
+      "system": {
+        "name": "Sistema muscular",
+        "slug": "muscular",
+        "url": "/api/v1/systems/muscular"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    },
+    {
+      "id": "musculo-quadriceps-femoral",
+      "globalId": "muscular/musculo-quadriceps-femoral",
+      "name": "Músculo quadríceps femoral",
+      "system": {
+        "name": "Sistema muscular",
+        "slug": "muscular",
+        "url": "/api/v1/systems/muscular"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    },
+    {
+      "id": "musculo-gastrocnemio",
+      "globalId": "muscular/musculo-gastrocnemio",
+      "name": "Músculo gastrocnêmio",
+      "system": {
+        "name": "Sistema muscular",
+        "slug": "muscular",
+        "url": "/api/v1/systems/muscular"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    },
+    {
+      "id": "musculo-tibial-anterior",
+      "globalId": "muscular/musculo-tibial-anterior",
+      "name": "Músculo tibial anterior",
+      "system": {
+        "name": "Sistema muscular",
+        "slug": "muscular",
+        "url": "/api/v1/systems/muscular"
+      },
+      "section": {
+        "id": "visita",
+        "title": "Visita ao museu"
+      },
+      "group": {
+        "id": "roteiro",
+        "title": "Visita ao museu"
+      }
+    }
+  ]
+}

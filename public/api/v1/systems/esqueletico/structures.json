@@ -1,0 +1,97 @@
+{
+  "count": 18,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "name": "Crânio",
+      "slug": "cranio",
+      "url": "/api/v1/systems/esqueletico/structures/cranio"
+    },
+    {
+      "name": "Mandíbula",
+      "slug": "mandibula",
+      "url": "/api/v1/systems/esqueletico/structures/mandibula"
+    },
+    {
+      "name": "Coluna cervical",
+      "slug": "coluna-cervical",
+      "url": "/api/v1/systems/esqueletico/structures/coluna-cervical"
+    },
+    {
+      "name": "Coluna torácica",
+      "slug": "coluna-toracica",
+      "url": "/api/v1/systems/esqueletico/structures/coluna-toracica"
+    },
+    {
+      "name": "Coluna lombar",
+      "slug": "coluna-lombar",
+      "url": "/api/v1/systems/esqueletico/structures/coluna-lombar"
+    },
+    {
+      "name": "Sacro",
+      "slug": "sacro",
+      "url": "/api/v1/systems/esqueletico/structures/sacro"
+    },
+    {
+      "name": "Costelas",
+      "slug": "costelas",
+      "url": "/api/v1/systems/esqueletico/structures/costelas"
+    },
+    {
+      "name": "Esterno",
+      "slug": "esterno",
+      "url": "/api/v1/systems/esqueletico/structures/esterno"
+    },
+    {
+      "name": "Escápula",
+      "slug": "escapula",
+      "url": "/api/v1/systems/esqueletico/structures/escapula"
+    },
+    {
+      "name": "Clavícula",
+      "slug": "clavicula",
+      "url": "/api/v1/systems/esqueletico/structures/clavicula"
+    },
+    {
+      "name": "Úmero",
+      "slug": "umero",
+      "url": "/api/v1/systems/esqueletico/structures/umero"
+    },
+    {
+      "name": "Rádio",
+      "slug": "radio",
+      "url": "/api/v1/systems/esqueletico/structures/radio"
+    },
+    {
+      "name": "Ulna",
+      "slug": "ulna",
+      "url": "/api/v1/systems/esqueletico/structures/ulna"
+    },
+    {
+      "name": "Osso do quadril",
+      "slug": "osso-do-quadril",
+      "url": "/api/v1/systems/esqueletico/structures/osso-do-quadril"
+    },
+    {
+      "name": "Fêmur",
+      "slug": "femur",
+      "url": "/api/v1/systems/esqueletico/structures/femur"
+    },
+    {
+      "name": "Patela",
+      "slug": "patela",
+      "url": "/api/v1/systems/esqueletico/structures/patela"
+    },
+    {
+      "name": "Tíbia",
+      "slug": "tibia",
+      "url": "/api/v1/systems/esqueletico/structures/tibia"
+    },
+    {
+      "name": "Fíbula",
+      "slug": "fibula",
+      "url": "/api/v1/systems/esqueletico/structures/fibula"
+    }
+  ]
+}

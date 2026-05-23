@@ -1,0 +1,22 @@
+{
+  "count": 3,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "name": "Rim",
+      "slug": "rim",
+      "url": "/api/v1/systems/urinario/structures/rim"
+    },
+    {
+      "name": "Ureter",
+      "slug": "ureter",
+      "url": "/api/v1/systems/urinario/structures/ureter"
+    },
+    {
+      "name": "Bexiga urinária",
+      "slug": "bexiga-urinaria",
+      "url": "/api/v1/systems/urinario/structures/bexiga-urinaria"
+    }
+  ]
+}
