@@ -1,0 +1,19 @@
+{
+  "id": "faringe-m-constritor-inferior-da-faringe",
+  "globalId": "digestorio/faringe-m-constritor-inferior-da-faringe",
+  "name": "M. constritor inferior da faringe",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "faringe",
+    "title": "Faringe"
+  },
+  "group": {
+    "id": "faringe",
+    "title": "Faringe"
+  },
+  "location": "Porção mais inferior, acima do esôfago cervical."
+}

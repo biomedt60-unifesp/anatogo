@@ -1,0 +1,19 @@
+{
+  "id": "boca-glandula-parotida-e-ducto-parotideo",
+  "globalId": "digestorio/boca-glandula-parotida-e-ducto-parotideo",
+  "name": "Glândula parótida e ducto parotídeo",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "boca",
+    "title": "Boca"
+  },
+  "group": {
+    "id": "boca",
+    "title": "Boca"
+  },
+  "location": "Parótida anterior à orelha; ducto abre na mucosa junto ao 2.º molar superior."
+}

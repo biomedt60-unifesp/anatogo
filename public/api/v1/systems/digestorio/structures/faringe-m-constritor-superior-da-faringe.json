@@ -1,0 +1,19 @@
+{
+  "id": "faringe-m-constritor-superior-da-faringe",
+  "globalId": "digestorio/faringe-m-constritor-superior-da-faringe",
+  "name": "M. constritor superior da faringe",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "faringe",
+    "title": "Faringe"
+  },
+  "group": {
+    "id": "faringe",
+    "title": "Faringe"
+  },
+  "location": "Porção mais superior; junto à faringe nasal/oral."
+}

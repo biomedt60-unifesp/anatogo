@@ -1,0 +1,19 @@
+{
+  "id": "intestino-delgado-flexura-duodenojejunal",
+  "globalId": "digestorio/intestino-delgado-flexura-duodenojejunal",
+  "name": "Flexura duodenojejunal",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "intestino-delgado",
+    "title": "Intestino delgado"
+  },
+  "group": {
+    "id": "intestino-delgado",
+    "title": "Intestino delgado"
+  },
+  "location": "Junção duodeno → jejuno, à esquerda da coluna."
+}

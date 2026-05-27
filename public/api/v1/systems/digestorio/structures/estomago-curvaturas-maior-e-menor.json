@@ -1,0 +1,19 @@
+{
+  "id": "estomago-curvaturas-maior-e-menor",
+  "globalId": "digestorio/estomago-curvaturas-maior-e-menor",
+  "name": "Curvaturas maior e menor",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "estomago",
+    "title": "Estômago"
+  },
+  "group": {
+    "id": "estomago",
+    "title": "Estômago"
+  },
+  "location": "Maior = borda côncava longa; menor = borda curta com incisura angular."
+}

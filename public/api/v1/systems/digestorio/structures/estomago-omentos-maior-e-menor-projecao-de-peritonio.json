@@ -1,0 +1,19 @@
+{
+  "id": "estomago-omentos-maior-e-menor-projecao-de-peritonio",
+  "globalId": "digestorio/estomago-omentos-maior-e-menor-projecao-de-peritonio",
+  "name": "Omentos maior e menor (projeção de peritônio)",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "estomago",
+    "title": "Estômago"
+  },
+  "group": {
+    "id": "estomago",
+    "title": "Estômago"
+  },
+  "location": "Maior: “avental” da curvatura maior; menor: entre estômago e fígado/duodeno."
+}

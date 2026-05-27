@@ -1,0 +1,19 @@
+{
+  "id": "intestino-grosso-mesocolo-sigmoide",
+  "globalId": "digestorio/intestino-grosso-mesocolo-sigmoide",
+  "name": "Mesocolo sigmoide",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "intestino-grosso",
+    "title": "Intestino grosso"
+  },
+  "group": {
+    "id": "intestino-grosso",
+    "title": "Intestino grosso"
+  },
+  "location": "Dobra que fixa o sigmoide à parede posterior."
+}

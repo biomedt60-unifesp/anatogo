@@ -1,0 +1,19 @@
+{
+  "id": "figado-vesicula-biliar",
+  "globalId": "digestorio/figado-vesicula-biliar",
+  "name": "Vesícula biliar",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "figado",
+    "title": "Fígado"
+  },
+  "group": {
+    "id": "figado",
+    "title": "Fígado"
+  },
+  "location": "Na face visceral do fígado, entre lobos direito e quadrado."
+}

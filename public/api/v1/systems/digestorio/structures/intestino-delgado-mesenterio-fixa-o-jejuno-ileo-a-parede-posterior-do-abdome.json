@@ -1,0 +1,19 @@
+{
+  "id": "intestino-delgado-mesenterio-fixa-o-jejuno-ileo-a-parede-posterior-do-abdome",
+  "globalId": "digestorio/intestino-delgado-mesenterio-fixa-o-jejuno-ileo-a-parede-posterior-do-abdome",
+  "name": "Mesentério (fixa o jejuno-íleo à parede posterior do abdome)",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "intestino-delgado",
+    "title": "Intestino delgado"
+  },
+  "group": {
+    "id": "intestino-delgado",
+    "title": "Intestino delgado"
+  },
+  "location": "Dobra dupla de peritônio que sustenta as alças e contém vasos."
+}

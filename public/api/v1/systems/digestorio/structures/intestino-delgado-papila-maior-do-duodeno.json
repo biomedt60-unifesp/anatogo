@@ -1,0 +1,19 @@
+{
+  "id": "intestino-delgado-papila-maior-do-duodeno",
+  "globalId": "digestorio/intestino-delgado-papila-maior-do-duodeno",
+  "name": "Papila maior do duodeno",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "intestino-delgado",
+    "title": "Intestino delgado"
+  },
+  "group": {
+    "id": "intestino-delgado",
+    "title": "Intestino delgado"
+  },
+  "location": "Na parede medial da 2.ª porção; entrada dos ductos biliar e pancreático."
+}

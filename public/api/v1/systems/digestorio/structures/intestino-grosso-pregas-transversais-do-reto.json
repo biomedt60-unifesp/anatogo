@@ -1,0 +1,19 @@
+{
+  "id": "intestino-grosso-pregas-transversais-do-reto",
+  "globalId": "digestorio/intestino-grosso-pregas-transversais-do-reto",
+  "name": "Pregas transversais do reto",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "intestino-grosso",
+    "title": "Intestino grosso"
+  },
+  "group": {
+    "id": "intestino-grosso",
+    "title": "Intestino grosso"
+  },
+  "location": "Dobras da mucosa no reto (válvulas de Houston)."
+}

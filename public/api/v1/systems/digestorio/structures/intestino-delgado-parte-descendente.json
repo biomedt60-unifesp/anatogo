@@ -1,0 +1,19 @@
+{
+  "id": "intestino-delgado-parte-descendente",
+  "globalId": "digestorio/intestino-delgado-parte-descendente",
+  "name": "Parte descendente",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "intestino-delgado",
+    "title": "Intestino delgado"
+  },
+  "group": {
+    "id": "intestino-delgado",
+    "title": "Intestino delgado"
+  },
+  "location": "2.ª porção vertical do duodeno, na parede posterior."
+}

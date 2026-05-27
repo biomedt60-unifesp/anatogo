@@ -1,0 +1,19 @@
+{
+  "id": "intestino-delgado-jejuno-e-ileo-constituem-as-alcas-intestinais",
+  "globalId": "digestorio/intestino-delgado-jejuno-e-ileo-constituem-as-alcas-intestinais",
+  "name": "Jejuno e íleo (constituem as alças intestinais)",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "intestino-delgado",
+    "title": "Intestino delgado"
+  },
+  "group": {
+    "id": "intestino-delgado",
+    "title": "Intestino delgado"
+  },
+  "location": "Jejuno mais proximal (mais largo, vascular); íleo distal, antes do ceco."
+}

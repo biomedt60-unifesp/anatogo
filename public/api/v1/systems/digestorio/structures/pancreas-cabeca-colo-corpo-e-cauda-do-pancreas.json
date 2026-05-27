@@ -1,0 +1,19 @@
+{
+  "id": "pancreas-cabeca-colo-corpo-e-cauda-do-pancreas",
+  "globalId": "digestorio/pancreas-cabeca-colo-corpo-e-cauda-do-pancreas",
+  "name": "Cabeça, colo, corpo e cauda do pâncreas",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "pancreas",
+    "title": "Pâncreas"
+  },
+  "group": {
+    "id": "pancreas",
+    "title": "Pâncreas"
+  },
+  "location": "Cabeça no “C” do duodeno; corpo cruza o abdome; cauda chega ao baço."
+}

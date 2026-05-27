@@ -1,6 +1,8 @@
 export type EstruturaItem = {
   id: string
   nome: string
+  /** Dica para localizar a estrutura (estudo / peça no museu) */
+  localizacao?: string
 }
 
 export type EstruturaGrupo = {

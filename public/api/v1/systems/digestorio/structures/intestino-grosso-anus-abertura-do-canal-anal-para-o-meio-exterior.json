@@ -1,0 +1,19 @@
+{
+  "id": "intestino-grosso-anus-abertura-do-canal-anal-para-o-meio-exterior",
+  "globalId": "digestorio/intestino-grosso-anus-abertura-do-canal-anal-para-o-meio-exterior",
+  "name": "Ânus (abertura do canal anal para o meio exterior)",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "intestino-grosso",
+    "title": "Intestino grosso"
+  },
+  "group": {
+    "id": "intestino-grosso",
+    "title": "Intestino grosso"
+  },
+  "location": "Abertura final; pele circundante (região perianal)."
+}

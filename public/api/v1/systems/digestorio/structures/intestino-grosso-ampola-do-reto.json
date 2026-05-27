@@ -1,0 +1,19 @@
+{
+  "id": "intestino-grosso-ampola-do-reto",
+  "globalId": "digestorio/intestino-grosso-ampola-do-reto",
+  "name": "Ampola do reto",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "intestino-grosso",
+    "title": "Intestino grosso"
+  },
+  "group": {
+    "id": "intestino-grosso",
+    "title": "Intestino grosso"
+  },
+  "location": "Dilatação terminal do reto, acima do canal anal."
+}

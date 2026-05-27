@@ -4,7 +4,7 @@
   "slug": "digestorio",
   "tipo": "Digestão",
   "emoji": "🍽️",
-  "structureCount": 9,
+  "structureCount": 91,
   "url": "/api/v1/systems/digestorio",
   "tagline": "Do prato à célula",
   "description": "Tubo digestório e órgãos anexos processam alimentos e absorvem nutrientes.",
@@ -16,11 +16,258 @@
   ],
   "fact": "Intestino delgado pode medir mais de 6 metros.",
   "ossada": "Siga o tubo como um mapa — eu sou seu GPS ósseo.",
-  "power": 114,
+  "power": 278,
   "structures": [
     {
-      "id": "lingua",
-      "globalId": "digestorio/lingua",
+      "id": "boca-labios-e-bochechas-com-corpo-adiposo-da-bochecha",
+      "globalId": "digestorio/boca-labios-e-bochechas-com-corpo-adiposo-da-bochecha",
+      "name": "Lábios e bochechas (com corpo adiposo da bochecha)",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "group": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "location": "Região externa da cavidade oral; bochechas formam as paredes laterais do vestíbulo."
+    },
+    {
+      "id": "boca-rima-da-boca",
+      "globalId": "digestorio/boca-rima-da-boca",
+      "name": "Rima da boca",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "group": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "location": "Linha de contato entre os lábios; limite externo da abertura oral."
+    },
+    {
+      "id": "boca-angulo-da-boca",
+      "globalId": "digestorio/boca-angulo-da-boca",
+      "name": "Ângulo da boca",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "group": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "location": "Cantos da boca, junção dos lábios superior e inferior."
+    },
+    {
+      "id": "boca-cavidade-oral",
+      "globalId": "digestorio/boca-cavidade-oral",
+      "name": "Cavidade oral",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "group": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "location": "Espaço interno da boca, do vestíbulo até as fauces."
+    },
+    {
+      "id": "boca-vestibulo-da-boca",
+      "globalId": "digestorio/boca-vestibulo-da-boca",
+      "name": "Vestíbulo da boca",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "group": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "location": "Espaço entre lábios/cheeks e dentes — “antessala” da cavidade."
+    },
+    {
+      "id": "boca-cavidade-propria-da-boca",
+      "globalId": "digestorio/boca-cavidade-propria-da-boca",
+      "name": "Cavidade própria da boca",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "group": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "location": "Região interna aos dentes, limitada pelo palato e pela língua."
+    },
+    {
+      "id": "boca-palato-duro",
+      "globalId": "digestorio/boca-palato-duro",
+      "name": "Palato duro",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "group": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "location": "Teto anterior da boca, osso (palato) revestido de mucosa."
+    },
+    {
+      "id": "boca-palato-mole-veu-palatino",
+      "globalId": "digestorio/boca-palato-mole-veu-palatino",
+      "name": "Palato mole (= véu palatino)",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "group": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "location": "Teto posterior móvel; continua na úvula."
+    },
+    {
+      "id": "boca-fauces",
+      "globalId": "digestorio/boca-fauces",
+      "name": "Fauces",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "group": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "location": "Abertura posterior da cavidade oral em direção à faringe."
+    },
+    {
+      "id": "boca-istmo-das-fauces",
+      "globalId": "digestorio/boca-istmo-das-fauces",
+      "name": "Istmo das fauces",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "group": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "location": "Passagem estreita entre cavidade oral e orofaringe."
+    },
+    {
+      "id": "boca-uvula-palatina",
+      "globalId": "digestorio/boca-uvula-palatina",
+      "name": "Úvula palatina",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "group": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "location": "Projeção mediana pendente do palato mole."
+    },
+    {
+      "id": "boca-arco-palatoglosso",
+      "globalId": "digestorio/boca-arco-palatoglosso",
+      "name": "Arco palatoglosso",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "group": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "location": "Dobra na parede lateral da faringe, entre palato e língua."
+    },
+    {
+      "id": "boca-tipos-de-dentes-incisivos-caninos-pre-molares-e-molares",
+      "globalId": "digestorio/boca-tipos-de-dentes-incisivos-caninos-pre-molares-e-molares",
+      "name": "Tipos de dentes: incisivos, caninos, pré-molares e molares",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "group": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "location": "Na arcada: incisivos e caninos à frente; pré-molares e molares mais posteriores."
+    },
+    {
+      "id": "boca-lingua",
+      "globalId": "digestorio/boca-lingua",
       "name": "Língua",
       "system": {
         "name": "Sistema digestório",
@@ -28,143 +275,1139 @@
         "url": "/api/v1/systems/digestorio"
       },
       "section": {
-        "id": "visita",
-        "title": "Visita ao museu"
+        "id": "boca",
+        "title": "Boca"
       },
       "group": {
-        "id": "roteiro",
-        "title": "Visita ao museu"
-      }
+        "id": "boca",
+        "title": "Boca"
+      },
+      "location": "Assoalho móvel da cavidade oral; músculo volumoso no centro."
     },
     {
-      "id": "esofago",
-      "globalId": "digestorio/esofago",
-      "name": "Esôfago",
+      "id": "boca-raiz-da-lingua",
+      "globalId": "digestorio/boca-raiz-da-lingua",
+      "name": "Raiz da língua",
       "system": {
         "name": "Sistema digestório",
         "slug": "digestorio",
         "url": "/api/v1/systems/digestorio"
       },
       "section": {
-        "id": "visita",
-        "title": "Visita ao museu"
+        "id": "boca",
+        "title": "Boca"
       },
       "group": {
-        "id": "roteiro",
-        "title": "Visita ao museu"
-      }
+        "id": "boca",
+        "title": "Boca"
+      },
+      "location": "Porção posterior fixa, voltada para a faringe (não vista de frente)."
     },
     {
-      "id": "estomago",
-      "globalId": "digestorio/estomago",
-      "name": "Estômago",
+      "id": "boca-corpo-da-lingua",
+      "globalId": "digestorio/boca-corpo-da-lingua",
+      "name": "Corpo da língua",
       "system": {
         "name": "Sistema digestório",
         "slug": "digestorio",
         "url": "/api/v1/systems/digestorio"
       },
       "section": {
-        "id": "visita",
-        "title": "Visita ao museu"
+        "id": "boca",
+        "title": "Boca"
       },
       "group": {
-        "id": "roteiro",
-        "title": "Visita ao museu"
-      }
+        "id": "boca",
+        "title": "Boca"
+      },
+      "location": "Parte central entre ápice e raiz."
     },
     {
-      "id": "figado",
-      "globalId": "digestorio/figado",
-      "name": "Fígado",
+      "id": "boca-apice-dorso-e-margens",
+      "globalId": "digestorio/boca-apice-dorso-e-margens",
+      "name": "Ápice, dorso e margens",
       "system": {
         "name": "Sistema digestório",
         "slug": "digestorio",
         "url": "/api/v1/systems/digestorio"
       },
       "section": {
-        "id": "visita",
-        "title": "Visita ao museu"
+        "id": "boca",
+        "title": "Boca"
       },
       "group": {
-        "id": "roteiro",
-        "title": "Visita ao museu"
-      }
+        "id": "boca",
+        "title": "Boca"
+      },
+      "location": "Ápice = ponta; dorso = face superior; margens = bordas laterais."
     },
     {
-      "id": "vesicula-biliar",
-      "globalId": "digestorio/vesicula-biliar",
-      "name": "Vesícula biliar",
+      "id": "boca-papilas-linguais-filiformes-fungiformes-folhadas-e-circunvaladas",
+      "globalId": "digestorio/boca-papilas-linguais-filiformes-fungiformes-folhadas-e-circunvaladas",
+      "name": "Papilas linguais: filiformes, fungiformes, folhadas e circunvaladas",
       "system": {
         "name": "Sistema digestório",
         "slug": "digestorio",
         "url": "/api/v1/systems/digestorio"
       },
       "section": {
-        "id": "visita",
-        "title": "Visita ao museu"
+        "id": "boca",
+        "title": "Boca"
       },
       "group": {
-        "id": "roteiro",
-        "title": "Visita ao museu"
-      }
+        "id": "boca",
+        "title": "Boca"
+      },
+      "location": "No dorso da língua: filiformes cobrem a maior parte; fungiformes mais anteriores; folhadas e circunvaladas na região posterior."
     },
     {
-      "id": "pancreas",
-      "globalId": "digestorio/pancreas",
-      "name": "Pâncreas",
+      "id": "boca-tonsilas-linguais",
+      "globalId": "digestorio/boca-tonsilas-linguais",
+      "name": "Tonsilas linguais",
       "system": {
         "name": "Sistema digestório",
         "slug": "digestorio",
         "url": "/api/v1/systems/digestorio"
       },
       "section": {
-        "id": "visita",
-        "title": "Visita ao museu"
+        "id": "boca",
+        "title": "Boca"
       },
       "group": {
-        "id": "roteiro",
-        "title": "Visita ao museu"
-      }
+        "id": "boca",
+        "title": "Boca"
+      },
+      "location": "Agregado linfóide na face posterior da raiz da língua."
     },
     {
-      "id": "intestino-delgado",
-      "globalId": "digestorio/intestino-delgado",
-      "name": "Intestino delgado",
+      "id": "boca-musculos-extrinsecos-da-lingua",
+      "globalId": "digestorio/boca-musculos-extrinsecos-da-lingua",
+      "name": "Músculos extrínsecos da língua",
       "system": {
         "name": "Sistema digestório",
         "slug": "digestorio",
         "url": "/api/v1/systems/digestorio"
       },
       "section": {
-        "id": "visita",
-        "title": "Visita ao museu"
+        "id": "boca",
+        "title": "Boca"
       },
       "group": {
-        "id": "roteiro",
-        "title": "Visita ao museu"
-      }
+        "id": "boca",
+        "title": "Boca"
+      },
+      "location": "Fora da língua; movem-na (genioglosso, hioglosso, etc.)."
     },
     {
-      "id": "colon",
-      "globalId": "digestorio/colon",
-      "name": "Cólon",
+      "id": "boca-m-genioglosso",
+      "globalId": "digestorio/boca-m-genioglosso",
+      "name": "M. genioglosso",
       "system": {
         "name": "Sistema digestório",
         "slug": "digestorio",
         "url": "/api/v1/systems/digestorio"
       },
       "section": {
-        "id": "visita",
-        "title": "Visita ao museu"
+        "id": "boca",
+        "title": "Boca"
       },
       "group": {
-        "id": "roteiro",
-        "title": "Visita ao museu"
-      }
+        "id": "boca",
+        "title": "Boca"
+      },
+      "location": "Do queixo ao dorso da língua; principal protrusor."
     },
     {
-      "id": "reto",
-      "globalId": "digestorio/reto",
+      "id": "boca-camada-de-musculos-intrinsecos",
+      "globalId": "digestorio/boca-camada-de-musculos-intrinsecos",
+      "name": "Camada de músculos intrínsecos",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "group": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "location": "Dentro da língua; alteram forma (não a posição grosseira)."
+    },
+    {
+      "id": "boca-glandulas-salivares-maiores",
+      "globalId": "digestorio/boca-glandulas-salivares-maiores",
+      "name": "Glândulas salivares maiores",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "group": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "location": "Parótida, submandibular e sublingual — fora da língua."
+    },
+    {
+      "id": "boca-glandula-parotida-e-ducto-parotideo",
+      "globalId": "digestorio/boca-glandula-parotida-e-ducto-parotideo",
+      "name": "Glândula parótida e ducto parotídeo",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "group": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "location": "Parótida anterior à orelha; ducto abre na mucosa junto ao 2.º molar superior."
+    },
+    {
+      "id": "boca-glandula-submandibular",
+      "globalId": "digestorio/boca-glandula-submandibular",
+      "name": "Glândula submandibular",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "group": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "location": "No assoalho da boca, medial à mandíbula; ducto abre perto do freio lingual."
+    },
+    {
+      "id": "boca-glandula-sublingual",
+      "globalId": "digestorio/boca-glandula-sublingual",
+      "name": "Glândula sublingual",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "group": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "location": "No assoalho, sob a mucosa lateral ao freio; ductos múltiplos pequenos."
+    },
+    {
+      "id": "boca-musculos-da-mastigacao",
+      "globalId": "digestorio/boca-musculos-da-mastigacao",
+      "name": "Músculos da mastigação",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "group": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "location": "Região da mandíbula e têmpora; fecham e movem a mandíbula."
+    },
+    {
+      "id": "boca-m-temporal",
+      "globalId": "digestorio/boca-m-temporal",
+      "name": "M. temporal",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "group": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "location": "Na fossa temporal, acima da mandíbula; elevador da mandíbula."
+    },
+    {
+      "id": "boca-m-masseter",
+      "globalId": "digestorio/boca-m-masseter",
+      "name": "M. masseter",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "group": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "location": "Superfície lateral da mandíbula; músculo da “bochecha” ao morder."
+    },
+    {
+      "id": "boca-mm-pterigoideos-lateral-e-medial",
+      "globalId": "digestorio/boca-mm-pterigoideos-lateral-e-medial",
+      "name": "Mm. pterigoideos lateral e medial",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "group": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "location": "Na fossa infratemporal; lateral abre, medial fecha a mandíbula."
+    },
+    {
+      "id": "boca-musculos-supra-hioideos",
+      "globalId": "digestorio/boca-musculos-supra-hioideos",
+      "name": "Músculos supra-hioideos",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "group": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "location": "Entre o hióide e o crânio/mandíbula; elevam o assoalho oral."
+    },
+    {
+      "id": "boca-m-digastrico",
+      "globalId": "digestorio/boca-m-digastrico",
+      "name": "M. digástrico",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "group": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "location": "Do mento ao hióide; ventre anterior eleva o assoalho da boca."
+    },
+    {
+      "id": "boca-m-milo-hioideo-este-constitui-o-diafragma-oral",
+      "globalId": "digestorio/boca-m-milo-hioideo-este-constitui-o-diafragma-oral",
+      "name": "M. milo-hióideo (este constitui o “diafragma oral”)",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "group": {
+        "id": "boca",
+        "title": "Boca"
+      },
+      "location": "Lamina entre os ramos da mandíbula; forma o assoalho muscular da boca."
+    },
+    {
+      "id": "faringe-parte-nasal-da-faringe",
+      "globalId": "digestorio/faringe-parte-nasal-da-faringe",
+      "name": "Parte nasal da faringe",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "faringe",
+        "title": "Faringe"
+      },
+      "group": {
+        "id": "faringe",
+        "title": "Faringe"
+      },
+      "location": "Acima do palato mole; continua das coanas (não visível pela boca)."
+    },
+    {
+      "id": "faringe-parte-oral-da-faringe",
+      "globalId": "digestorio/faringe-parte-oral-da-faringe",
+      "name": "Parte oral da faringe",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "faringe",
+        "title": "Faringe"
+      },
+      "group": {
+        "id": "faringe",
+        "title": "Faringe"
+      },
+      "location": "Atrás da cavidade oral, entre palato mole e epiglote."
+    },
+    {
+      "id": "faringe-fauces",
+      "globalId": "digestorio/faringe-fauces",
+      "name": "Fauces",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "faringe",
+        "title": "Faringe"
+      },
+      "group": {
+        "id": "faringe",
+        "title": "Faringe"
+      },
+      "location": "Abertura entre cavidade oral e orofaringe; limitada pelos arcos."
+    },
+    {
+      "id": "faringe-arco-palatofaringeo",
+      "globalId": "digestorio/faringe-arco-palatofaringeo",
+      "name": "Arco palatofaríngeo",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "faringe",
+        "title": "Faringe"
+      },
+      "group": {
+        "id": "faringe",
+        "title": "Faringe"
+      },
+      "location": "Dobra posterior à tonsila, entre palato e parede faríngea."
+    },
+    {
+      "id": "faringe-fossa-tonsilar",
+      "globalId": "digestorio/faringe-fossa-tonsilar",
+      "name": "Fossa tonsilar",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "faringe",
+        "title": "Faringe"
+      },
+      "group": {
+        "id": "faringe",
+        "title": "Faringe"
+      },
+      "location": "Depressão entre arcos palatoglosso e palatofaríngeo (leito da tonsila)."
+    },
+    {
+      "id": "faringe-tonsila-palatina",
+      "globalId": "digestorio/faringe-tonsila-palatina",
+      "name": "Tonsila palatina",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "faringe",
+        "title": "Faringe"
+      },
+      "group": {
+        "id": "faringe",
+        "title": "Faringe"
+      },
+      "location": "Agregado linfóide na fossa tonsilar, lateral da orofaringe."
+    },
+    {
+      "id": "faringe-parte-laringea-da-faringe",
+      "globalId": "digestorio/faringe-parte-laringea-da-faringe",
+      "name": "Parte laríngea da faringe",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "faringe",
+        "title": "Faringe"
+      },
+      "group": {
+        "id": "faringe",
+        "title": "Faringe"
+      },
+      "location": "Atrás da laringe, acima do esôfago; continua na hipofaringe."
+    },
+    {
+      "id": "faringe-musculos-da-faringe",
+      "globalId": "digestorio/faringe-musculos-da-faringe",
+      "name": "Músculos da faringe",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "faringe",
+        "title": "Faringe"
+      },
+      "group": {
+        "id": "faringe",
+        "title": "Faringe"
+      },
+      "location": "Camada muscular externa da parede faríngea (constritores)."
+    },
+    {
+      "id": "faringe-m-constritor-superior-da-faringe",
+      "globalId": "digestorio/faringe-m-constritor-superior-da-faringe",
+      "name": "M. constritor superior da faringe",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "faringe",
+        "title": "Faringe"
+      },
+      "group": {
+        "id": "faringe",
+        "title": "Faringe"
+      },
+      "location": "Porção mais superior; junto à faringe nasal/oral."
+    },
+    {
+      "id": "faringe-m-constritor-medio-da-faringe",
+      "globalId": "digestorio/faringe-m-constritor-medio-da-faringe",
+      "name": "M. constritor médio da faringe",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "faringe",
+        "title": "Faringe"
+      },
+      "group": {
+        "id": "faringe",
+        "title": "Faringe"
+      },
+      "location": "Porção intermediária da parede faríngea."
+    },
+    {
+      "id": "faringe-m-constritor-inferior-da-faringe",
+      "globalId": "digestorio/faringe-m-constritor-inferior-da-faringe",
+      "name": "M. constritor inferior da faringe",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "faringe",
+        "title": "Faringe"
+      },
+      "group": {
+        "id": "faringe",
+        "title": "Faringe"
+      },
+      "location": "Porção mais inferior, acima do esôfago cervical."
+    },
+    {
+      "id": "esofago-partes-cervical-toracica-e-abdominal-estabelecer-os-limites",
+      "globalId": "digestorio/esofago-partes-cervical-toracica-e-abdominal-estabelecer-os-limites",
+      "name": "Partes cervical, torácica e abdominal (estabelecer os limites)",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "esofago",
+        "title": "Esôfago"
+      },
+      "group": {
+        "id": "esofago",
+        "title": "Esôfago"
+      },
+      "location": "Cervical: pescoço atrás da traqueia; torácica: mediastino posterior; abdominal: curto, antes do estômago."
+    },
+    {
+      "id": "estomago-paredes-anterior-e-posterior",
+      "globalId": "digestorio/estomago-paredes-anterior-e-posterior",
+      "name": "Paredes anterior e posterior",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "estomago",
+        "title": "Estômago"
+      },
+      "group": {
+        "id": "estomago",
+        "title": "Estômago"
+      },
+      "location": "Na peça/abdome: parede voltada para frente vs. para trás."
+    },
+    {
+      "id": "estomago-cardia-fundo-gastrico-corpo-gastrico-e-parte-pilorica",
+      "globalId": "digestorio/estomago-cardia-fundo-gastrico-corpo-gastrico-e-parte-pilorica",
+      "name": "Cárdia, fundo gástrico, corpo gástrico e parte pilórica",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "estomago",
+        "title": "Estômago"
+      },
+      "group": {
+        "id": "estomago",
+        "title": "Estômago"
+      },
+      "location": "Cárdia = junção com esôfago; fundo = cúpula superior; corpo = região central; piloro = porção distal."
+    },
+    {
+      "id": "estomago-curvaturas-maior-e-menor",
+      "globalId": "digestorio/estomago-curvaturas-maior-e-menor",
+      "name": "Curvaturas maior e menor",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "estomago",
+        "title": "Estômago"
+      },
+      "group": {
+        "id": "estomago",
+        "title": "Estômago"
+      },
+      "location": "Maior = borda côncava longa; menor = borda curta com incisura angular."
+    },
+    {
+      "id": "estomago-piloro-na-transicao-entre-estomago-e-duodeno",
+      "globalId": "digestorio/estomago-piloro-na-transicao-entre-estomago-e-duodeno",
+      "name": "Piloro (na transição entre estômago e duodeno)",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "estomago",
+        "title": "Estômago"
+      },
+      "group": {
+        "id": "estomago",
+        "title": "Estômago"
+      },
+      "location": "Canal pilórico + esfíncter; região distal que continua no duodeno."
+    },
+    {
+      "id": "estomago-omentos-maior-e-menor-projecao-de-peritonio",
+      "globalId": "digestorio/estomago-omentos-maior-e-menor-projecao-de-peritonio",
+      "name": "Omentos maior e menor (projeção de peritônio)",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "estomago",
+        "title": "Estômago"
+      },
+      "group": {
+        "id": "estomago",
+        "title": "Estômago"
+      },
+      "location": "Maior: “avental” da curvatura maior; menor: entre estômago e fígado/duodeno."
+    },
+    {
+      "id": "intestino-delgado-duodeno",
+      "globalId": "digestorio/intestino-delgado-duodeno",
+      "name": "Duodeno",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "intestino-delgado",
+        "title": "Intestino delgado"
+      },
+      "group": {
+        "id": "intestino-delgado",
+        "title": "Intestino delgado"
+      },
+      "location": "Primeira porção do delgado, em forma de “C” ao redor da cabeça do pâncreas."
+    },
+    {
+      "id": "intestino-delgado-parte-superior",
+      "globalId": "digestorio/intestino-delgado-parte-superior",
+      "name": "Parte superior",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "intestino-delgado",
+        "title": "Intestino delgado"
+      },
+      "group": {
+        "id": "intestino-delgado",
+        "title": "Intestino delgado"
+      },
+      "location": "1.ª porção do duodeno (bulbo), após o piloro."
+    },
+    {
+      "id": "intestino-delgado-parte-descendente",
+      "globalId": "digestorio/intestino-delgado-parte-descendente",
+      "name": "Parte descendente",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "intestino-delgado",
+        "title": "Intestino delgado"
+      },
+      "group": {
+        "id": "intestino-delgado",
+        "title": "Intestino delgado"
+      },
+      "location": "2.ª porção vertical do duodeno, na parede posterior."
+    },
+    {
+      "id": "intestino-delgado-papila-maior-do-duodeno",
+      "globalId": "digestorio/intestino-delgado-papila-maior-do-duodeno",
+      "name": "Papila maior do duodeno",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "intestino-delgado",
+        "title": "Intestino delgado"
+      },
+      "group": {
+        "id": "intestino-delgado",
+        "title": "Intestino delgado"
+      },
+      "location": "Na parede medial da 2.ª porção; entrada dos ductos biliar e pancreático."
+    },
+    {
+      "id": "intestino-delgado-parte-horizontal",
+      "globalId": "digestorio/intestino-delgado-parte-horizontal",
+      "name": "Parte horizontal",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "intestino-delgado",
+        "title": "Intestino delgado"
+      },
+      "group": {
+        "id": "intestino-delgado",
+        "title": "Intestino delgado"
+      },
+      "location": "3.ª porção transversa do duodeno."
+    },
+    {
+      "id": "intestino-delgado-parte-ascendente",
+      "globalId": "digestorio/intestino-delgado-parte-ascendente",
+      "name": "Parte ascendente",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "intestino-delgado",
+        "title": "Intestino delgado"
+      },
+      "group": {
+        "id": "intestino-delgado",
+        "title": "Intestino delgado"
+      },
+      "location": "4.ª porção que sobe até a flexura duodenojejunal."
+    },
+    {
+      "id": "intestino-delgado-flexura-duodenojejunal",
+      "globalId": "digestorio/intestino-delgado-flexura-duodenojejunal",
+      "name": "Flexura duodenojejunal",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "intestino-delgado",
+        "title": "Intestino delgado"
+      },
+      "group": {
+        "id": "intestino-delgado",
+        "title": "Intestino delgado"
+      },
+      "location": "Junção duodeno → jejuno, à esquerda da coluna."
+    },
+    {
+      "id": "intestino-delgado-jejuno-e-ileo-constituem-as-alcas-intestinais",
+      "globalId": "digestorio/intestino-delgado-jejuno-e-ileo-constituem-as-alcas-intestinais",
+      "name": "Jejuno e íleo (constituem as alças intestinais)",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "intestino-delgado",
+        "title": "Intestino delgado"
+      },
+      "group": {
+        "id": "intestino-delgado",
+        "title": "Intestino delgado"
+      },
+      "location": "Jejuno mais proximal (mais largo, vascular); íleo distal, antes do ceco."
+    },
+    {
+      "id": "intestino-delgado-mesenterio-fixa-o-jejuno-ileo-a-parede-posterior-do-abdome",
+      "globalId": "digestorio/intestino-delgado-mesenterio-fixa-o-jejuno-ileo-a-parede-posterior-do-abdome",
+      "name": "Mesentério (fixa o jejuno-íleo à parede posterior do abdome)",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "intestino-delgado",
+        "title": "Intestino delgado"
+      },
+      "group": {
+        "id": "intestino-delgado",
+        "title": "Intestino delgado"
+      },
+      "location": "Dobra dupla de peritônio que sustenta as alças e contém vasos."
+    },
+    {
+      "id": "intestino-delgado-parte-terminal-do-ileo",
+      "globalId": "digestorio/intestino-delgado-parte-terminal-do-ileo",
+      "name": "Parte terminal do íleo",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "intestino-delgado",
+        "title": "Intestino delgado"
+      },
+      "group": {
+        "id": "intestino-delgado",
+        "title": "Intestino delgado"
+      },
+      "location": "Último segmento do íleo, antes da válvula ileocecal."
+    },
+    {
+      "id": "intestino-grosso-ceco",
+      "globalId": "digestorio/intestino-grosso-ceco",
+      "name": "Ceco",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "group": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "location": "Bolsa inicial do grosso, íleo entra pela válvula ileocecal."
+    },
+    {
+      "id": "intestino-grosso-apendice-vermiforme",
+      "globalId": "digestorio/intestino-grosso-apendice-vermiforme",
+      "name": "Apêndice vermiforme",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "group": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "location": "Projeção do ceco; base na fossa ileocecal."
+    },
+    {
+      "id": "intestino-grosso-colo-ascendente",
+      "globalId": "digestorio/intestino-grosso-colo-ascendente",
+      "name": "Colo ascendente",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "group": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "location": "Sobe pelo flanco direito até o fígado."
+    },
+    {
+      "id": "intestino-grosso-flexura-direita-do-colo",
+      "globalId": "digestorio/intestino-grosso-flexura-direita-do-colo",
+      "name": "Flexura direita do colo",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "group": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "location": "Curva hepática entre ascendente e transverso."
+    },
+    {
+      "id": "intestino-grosso-colo-transverso",
+      "globalId": "digestorio/intestino-grosso-colo-transverso",
+      "name": "Colo transverso",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "group": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "location": "Cruza o abdome abaixo do estômago."
+    },
+    {
+      "id": "intestino-grosso-mesocolo-transverso",
+      "globalId": "digestorio/intestino-grosso-mesocolo-transverso",
+      "name": "Mesocolo transverso",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "group": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "location": "Peritônio que sustenta o colo transverso."
+    },
+    {
+      "id": "intestino-grosso-flexura-esquerda-do-colo",
+      "globalId": "digestorio/intestino-grosso-flexura-esquerda-do-colo",
+      "name": "Flexura esquerda do colo",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "group": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "location": "Curva esplênica, junção transverso/descendente."
+    },
+    {
+      "id": "intestino-grosso-colo-descendente",
+      "globalId": "digestorio/intestino-grosso-colo-descendente",
+      "name": "Colo descendente",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "group": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "location": "Desce pelo flanco esquerdo em direção à pelve."
+    },
+    {
+      "id": "intestino-grosso-colo-sigmoide",
+      "globalId": "digestorio/intestino-grosso-colo-sigmoide",
+      "name": "Colo sigmoide",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "group": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "location": "Porção em “S” antes do reto, na pelve."
+    },
+    {
+      "id": "intestino-grosso-mesocolo-sigmoide",
+      "globalId": "digestorio/intestino-grosso-mesocolo-sigmoide",
+      "name": "Mesocolo sigmoide",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "group": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "location": "Dobra que fixa o sigmoide à parede posterior."
+    },
+    {
+      "id": "intestino-grosso-saculacoes-do-colo",
+      "globalId": "digestorio/intestino-grosso-saculacoes-do-colo",
+      "name": "Saculações do colo",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "group": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "location": "Bolhas da parede entre as tênias (haustrações)."
+    },
+    {
+      "id": "intestino-grosso-apendices-omentais-do-colo",
+      "globalId": "digestorio/intestino-grosso-apendices-omentais-do-colo",
+      "name": "Apêndices omentais do colo",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "group": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "location": "Gordura na superfície serosa do colo (epiploicas)."
+    },
+    {
+      "id": "intestino-grosso-tenias-do-colo-fitas-musculares-caracteristicas-do-ceco-e-colos",
+      "globalId": "digestorio/intestino-grosso-tenias-do-colo-fitas-musculares-caracteristicas-do-ceco-e-colos",
+      "name": "Tênias do colo (fitas musculares características do ceco e colos)",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "group": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "location": "Três faixas musculares longitudinais na superfície externa do ceco/colo."
+    },
+    {
+      "id": "intestino-grosso-reto",
+      "globalId": "digestorio/intestino-grosso-reto",
       "name": "Reto",
       "system": {
         "name": "Sistema digestório",
@@ -172,13 +1415,337 @@
         "url": "/api/v1/systems/digestorio"
       },
       "section": {
-        "id": "visita",
-        "title": "Visita ao museu"
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
       },
       "group": {
-        "id": "roteiro",
-        "title": "Visita ao museu"
-      }
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "location": "Porção final do grosso, na pelve, continua no canal anal."
+    },
+    {
+      "id": "intestino-grosso-pregas-transversais-do-reto",
+      "globalId": "digestorio/intestino-grosso-pregas-transversais-do-reto",
+      "name": "Pregas transversais do reto",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "group": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "location": "Dobras da mucosa no reto (válvulas de Houston)."
+    },
+    {
+      "id": "intestino-grosso-ampola-do-reto",
+      "globalId": "digestorio/intestino-grosso-ampola-do-reto",
+      "name": "Ampola do reto",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "group": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "location": "Dilatação terminal do reto, acima do canal anal."
+    },
+    {
+      "id": "intestino-grosso-canal-anal",
+      "globalId": "digestorio/intestino-grosso-canal-anal",
+      "name": "Canal anal",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "group": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "location": "Último trecho do tubo digestivo, com esfíncteres."
+    },
+    {
+      "id": "intestino-grosso-flexura-anorretal",
+      "globalId": "digestorio/intestino-grosso-flexura-anorretal",
+      "name": "Flexura anorretal",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "group": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "location": "Curva entre reto e canal anal."
+    },
+    {
+      "id": "intestino-grosso-colunas-anais",
+      "globalId": "digestorio/intestino-grosso-colunas-anais",
+      "name": "Colunas anais",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "group": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "location": "Pregas longitudinais da mucosa no canal anal."
+    },
+    {
+      "id": "intestino-grosso-mm-esfincteres-externo-e-interno-do-anus",
+      "globalId": "digestorio/intestino-grosso-mm-esfincteres-externo-e-interno-do-anus",
+      "name": "Mm. esfíncteres externo e interno do ânus",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "group": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "location": "Interno = liso (mucosa/muscular); externo = estriado, voluntário, ao redor do canal."
+    },
+    {
+      "id": "intestino-grosso-anus-abertura-do-canal-anal-para-o-meio-exterior",
+      "globalId": "digestorio/intestino-grosso-anus-abertura-do-canal-anal-para-o-meio-exterior",
+      "name": "Ânus (abertura do canal anal para o meio exterior)",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "group": {
+        "id": "intestino-grosso",
+        "title": "Intestino grosso"
+      },
+      "location": "Abertura final; pele circundante (região perianal)."
+    },
+    {
+      "id": "figado-faces-diafragmatica-e-visceral",
+      "globalId": "digestorio/figado-faces-diafragmatica-e-visceral",
+      "name": "Faces diafragmática e visceral",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "figado",
+        "title": "Fígado"
+      },
+      "group": {
+        "id": "figado",
+        "title": "Fígado"
+      },
+      "location": "Diafragmática = côncava contra o diafragma; visceral = voltada para órgãos abdominais."
+    },
+    {
+      "id": "figado-lobos-hepatico-direito-hepatico-esquerdo-quadrado-e-caudado",
+      "globalId": "digestorio/figado-lobos-hepatico-direito-hepatico-esquerdo-quadrado-e-caudado",
+      "name": "Lobos hepático direito, hepático esquerdo, quadrado e caudado",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "figado",
+        "title": "Fígado"
+      },
+      "group": {
+        "id": "figado",
+        "title": "Fígado"
+      },
+      "location": "Direito = maior volume; esquerdo = medial ao fígado; quadrado e caudado junto à vesícula e veia cava."
+    },
+    {
+      "id": "figado-porta-do-figado-hilo-por-onde-passam-estruturas-do-pediculo-do-figado",
+      "globalId": "digestorio/figado-porta-do-figado-hilo-por-onde-passam-estruturas-do-pediculo-do-figado",
+      "name": "Porta do fígado (= hilo, por onde passam estruturas do pedículo do fígado)",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "figado",
+        "title": "Fígado"
+      },
+      "group": {
+        "id": "figado",
+        "title": "Fígado"
+      },
+      "location": "Fissura na face visceral; entram veia porta, artéria hepática e saem ductos."
+    },
+    {
+      "id": "figado-pediculo-do-figado-v-porta-a-hepatica-propria-e-ducto-hepatico-comum",
+      "globalId": "digestorio/figado-pediculo-do-figado-v-porta-a-hepatica-propria-e-ducto-hepatico-comum",
+      "name": "Pedículo do fígado: v. porta, a. hepática própria e ducto hepático comum",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "figado",
+        "title": "Fígado"
+      },
+      "group": {
+        "id": "figado",
+        "title": "Fígado"
+      },
+      "location": "Tríade na porta: veia porta + artéria hepática + ducto hepático comum."
+    },
+    {
+      "id": "figado-ligamentos-falciforme-e-redondo-do-figado",
+      "globalId": "digestorio/figado-ligamentos-falciforme-e-redondo-do-figado",
+      "name": "Ligamentos falciforme e redondo do fígado",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "figado",
+        "title": "Fígado"
+      },
+      "group": {
+        "id": "figado",
+        "title": "Fígado"
+      },
+      "location": "Falciforme = crista entre lobos na face diafragmática; redondo = resto da veia umbilical."
+    },
+    {
+      "id": "figado-vesicula-biliar",
+      "globalId": "digestorio/figado-vesicula-biliar",
+      "name": "Vesícula biliar",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "figado",
+        "title": "Fígado"
+      },
+      "group": {
+        "id": "figado",
+        "title": "Fígado"
+      },
+      "location": "Na face visceral do fígado, entre lobos direito e quadrado."
+    },
+    {
+      "id": "figado-ducto-hepatico-comum-ducto-cistico-e-ducto-coledoco-ampola-hepatopancreatica",
+      "globalId": "digestorio/figado-ducto-hepatico-comum-ducto-cistico-e-ducto-coledoco-ampola-hepatopancreatica",
+      "name": "Ducto hepático comum, ducto cístico e ducto colédoco (ampola hepatopancreática)",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "figado",
+        "title": "Fígado"
+      },
+      "group": {
+        "id": "figado",
+        "title": "Fígado"
+      },
+      "location": "Cístico sai da vesícula; comum + cístico → colédoco → papila maior do duodeno."
+    },
+    {
+      "id": "pancreas-cabeca-colo-corpo-e-cauda-do-pancreas",
+      "globalId": "digestorio/pancreas-cabeca-colo-corpo-e-cauda-do-pancreas",
+      "name": "Cabeça, colo, corpo e cauda do pâncreas",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "pancreas",
+        "title": "Pâncreas"
+      },
+      "group": {
+        "id": "pancreas",
+        "title": "Pâncreas"
+      },
+      "location": "Cabeça no “C” do duodeno; corpo cruza o abdome; cauda chega ao baço."
+    },
+    {
+      "id": "pancreas-ducto-pancreatico",
+      "globalId": "digestorio/pancreas-ducto-pancreatico",
+      "name": "Ducto pancreático",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "pancreas",
+        "title": "Pâncreas"
+      },
+      "group": {
+        "id": "pancreas",
+        "title": "Pâncreas"
+      },
+      "location": "Corre no pâncreas e abre na papila maior com o colédoco."
+    },
+    {
+      "id": "peritonio-peritonio-parietal-e-peritonio-visceral",
+      "globalId": "digestorio/peritonio-peritonio-parietal-e-peritonio-visceral",
+      "name": "Peritônio parietal e peritônio visceral",
+      "system": {
+        "name": "Sistema digestório",
+        "slug": "digestorio",
+        "url": "/api/v1/systems/digestorio"
+      },
+      "section": {
+        "id": "peritonio",
+        "title": "Peritônio"
+      },
+      "group": {
+        "id": "peritonio",
+        "title": "Peritônio"
+      },
+      "location": "Parietal = reveste parede abdominal; visceral = cobre superfície dos órgãos."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "id": "intestino-delgado-parte-superior",
+  "globalId": "digestorio/intestino-delgado-parte-superior",
+  "name": "Parte superior",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "intestino-delgado",
+    "title": "Intestino delgado"
+  },
+  "group": {
+    "id": "intestino-delgado",
+    "title": "Intestino delgado"
+  },
+  "location": "1.ª porção do duodeno (bulbo), após o piloro."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "boca-apice-dorso-e-margens",
+  "globalId": "digestorio/boca-apice-dorso-e-margens",
+  "name": "Ápice, dorso e margens",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "boca",
+    "title": "Boca"
+  },
+  "group": {
+    "id": "boca",
+    "title": "Boca"
+  },
+  "location": "Ápice = ponta; dorso = face superior; margens = bordas laterais."
+}

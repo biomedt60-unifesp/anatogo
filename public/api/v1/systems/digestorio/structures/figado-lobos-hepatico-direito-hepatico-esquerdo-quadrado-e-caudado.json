@@ -1,0 +1,19 @@
+{
+  "id": "figado-lobos-hepatico-direito-hepatico-esquerdo-quadrado-e-caudado",
+  "globalId": "digestorio/figado-lobos-hepatico-direito-hepatico-esquerdo-quadrado-e-caudado",
+  "name": "Lobos hepático direito, hepático esquerdo, quadrado e caudado",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "figado",
+    "title": "Fígado"
+  },
+  "group": {
+    "id": "figado",
+    "title": "Fígado"
+  },
+  "location": "Direito = maior volume; esquerdo = medial ao fígado; quadrado e caudado junto à vesícula e veia cava."
+}

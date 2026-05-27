@@ -1,0 +1,19 @@
+{
+  "id": "intestino-delgado-parte-ascendente",
+  "globalId": "digestorio/intestino-delgado-parte-ascendente",
+  "name": "Parte ascendente",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "intestino-delgado",
+    "title": "Intestino delgado"
+  },
+  "group": {
+    "id": "intestino-delgado",
+    "title": "Intestino delgado"
+  },
+  "location": "4.ª porção que sobe até a flexura duodenojejunal."
+}

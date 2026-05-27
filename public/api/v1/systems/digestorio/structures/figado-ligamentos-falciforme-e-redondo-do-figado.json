@@ -1,0 +1,19 @@
+{
+  "id": "figado-ligamentos-falciforme-e-redondo-do-figado",
+  "globalId": "digestorio/figado-ligamentos-falciforme-e-redondo-do-figado",
+  "name": "Ligamentos falciforme e redondo do fígado",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "figado",
+    "title": "Fígado"
+  },
+  "group": {
+    "id": "figado",
+    "title": "Fígado"
+  },
+  "location": "Falciforme = crista entre lobos na face diafragmática; redondo = resto da veia umbilical."
+}

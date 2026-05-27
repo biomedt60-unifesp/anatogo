@@ -1,0 +1,19 @@
+{
+  "id": "estomago-paredes-anterior-e-posterior",
+  "globalId": "digestorio/estomago-paredes-anterior-e-posterior",
+  "name": "Paredes anterior e posterior",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "estomago",
+    "title": "Estômago"
+  },
+  "group": {
+    "id": "estomago",
+    "title": "Estômago"
+  },
+  "location": "Na peça/abdome: parede voltada para frente vs. para trás."
+}

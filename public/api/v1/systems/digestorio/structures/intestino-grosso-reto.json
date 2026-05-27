@@ -1,0 +1,19 @@
+{
+  "id": "intestino-grosso-reto",
+  "globalId": "digestorio/intestino-grosso-reto",
+  "name": "Reto",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "intestino-grosso",
+    "title": "Intestino grosso"
+  },
+  "group": {
+    "id": "intestino-grosso",
+    "title": "Intestino grosso"
+  },
+  "location": "Porção final do grosso, na pelve, continua no canal anal."
+}

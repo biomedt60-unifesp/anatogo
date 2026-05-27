@@ -1,0 +1,19 @@
+{
+  "id": "esofago-partes-cervical-toracica-e-abdominal-estabelecer-os-limites",
+  "globalId": "digestorio/esofago-partes-cervical-toracica-e-abdominal-estabelecer-os-limites",
+  "name": "Partes cervical, torácica e abdominal (estabelecer os limites)",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "esofago",
+    "title": "Esôfago"
+  },
+  "group": {
+    "id": "esofago",
+    "title": "Esôfago"
+  },
+  "location": "Cervical: pescoço atrás da traqueia; torácica: mediastino posterior; abdominal: curto, antes do estômago."
+}

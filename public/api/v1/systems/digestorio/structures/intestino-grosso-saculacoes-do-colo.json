@@ -1,0 +1,19 @@
+{
+  "id": "intestino-grosso-saculacoes-do-colo",
+  "globalId": "digestorio/intestino-grosso-saculacoes-do-colo",
+  "name": "Saculações do colo",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "intestino-grosso",
+    "title": "Intestino grosso"
+  },
+  "group": {
+    "id": "intestino-grosso",
+    "title": "Intestino grosso"
+  },
+  "location": "Bolhas da parede entre as tênias (haustrações)."
+}

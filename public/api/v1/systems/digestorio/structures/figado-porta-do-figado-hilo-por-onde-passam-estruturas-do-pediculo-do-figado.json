@@ -1,0 +1,19 @@
+{
+  "id": "figado-porta-do-figado-hilo-por-onde-passam-estruturas-do-pediculo-do-figado",
+  "globalId": "digestorio/figado-porta-do-figado-hilo-por-onde-passam-estruturas-do-pediculo-do-figado",
+  "name": "Porta do fígado (= hilo, por onde passam estruturas do pedículo do fígado)",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "figado",
+    "title": "Fígado"
+  },
+  "group": {
+    "id": "figado",
+    "title": "Fígado"
+  },
+  "location": "Fissura na face visceral; entram veia porta, artéria hepática e saem ductos."
+}

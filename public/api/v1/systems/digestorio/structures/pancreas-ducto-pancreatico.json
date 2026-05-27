@@ -1,0 +1,19 @@
+{
+  "id": "pancreas-ducto-pancreatico",
+  "globalId": "digestorio/pancreas-ducto-pancreatico",
+  "name": "Ducto pancreático",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "pancreas",
+    "title": "Pâncreas"
+  },
+  "group": {
+    "id": "pancreas",
+    "title": "Pâncreas"
+  },
+  "location": "Corre no pâncreas e abre na papila maior com o colédoco."
+}

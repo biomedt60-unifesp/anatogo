@@ -1,0 +1,19 @@
+{
+  "id": "figado-pediculo-do-figado-v-porta-a-hepatica-propria-e-ducto-hepatico-comum",
+  "globalId": "digestorio/figado-pediculo-do-figado-v-porta-a-hepatica-propria-e-ducto-hepatico-comum",
+  "name": "Pedículo do fígado: v. porta, a. hepática própria e ducto hepático comum",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "figado",
+    "title": "Fígado"
+  },
+  "group": {
+    "id": "figado",
+    "title": "Fígado"
+  },
+  "location": "Tríade na porta: veia porta + artéria hepática + ducto hepático comum."
+}

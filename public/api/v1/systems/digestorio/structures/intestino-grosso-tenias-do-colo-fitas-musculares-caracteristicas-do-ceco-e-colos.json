@@ -1,0 +1,19 @@
+{
+  "id": "intestino-grosso-tenias-do-colo-fitas-musculares-caracteristicas-do-ceco-e-colos",
+  "globalId": "digestorio/intestino-grosso-tenias-do-colo-fitas-musculares-caracteristicas-do-ceco-e-colos",
+  "name": "Tênias do colo (fitas musculares características do ceco e colos)",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "intestino-grosso",
+    "title": "Intestino grosso"
+  },
+  "group": {
+    "id": "intestino-grosso",
+    "title": "Intestino grosso"
+  },
+  "location": "Três faixas musculares longitudinais na superfície externa do ceco/colo."
+}

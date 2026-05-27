@@ -1,0 +1,19 @@
+{
+  "id": "boca-m-temporal",
+  "globalId": "digestorio/boca-m-temporal",
+  "name": "M. temporal",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "boca",
+    "title": "Boca"
+  },
+  "group": {
+    "id": "boca",
+    "title": "Boca"
+  },
+  "location": "Na fossa temporal, acima da mandíbula; elevador da mandíbula."
+}

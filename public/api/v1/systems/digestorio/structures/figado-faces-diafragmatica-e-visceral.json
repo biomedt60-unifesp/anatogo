@@ -1,0 +1,19 @@
+{
+  "id": "figado-faces-diafragmatica-e-visceral",
+  "globalId": "digestorio/figado-faces-diafragmatica-e-visceral",
+  "name": "Faces diafragmática e visceral",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "figado",
+    "title": "Fígado"
+  },
+  "group": {
+    "id": "figado",
+    "title": "Fígado"
+  },
+  "location": "Diafragmática = côncava contra o diafragma; visceral = voltada para órgãos abdominais."
+}

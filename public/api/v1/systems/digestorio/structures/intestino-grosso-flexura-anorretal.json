@@ -1,0 +1,19 @@
+{
+  "id": "intestino-grosso-flexura-anorretal",
+  "globalId": "digestorio/intestino-grosso-flexura-anorretal",
+  "name": "Flexura anorretal",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "intestino-grosso",
+    "title": "Intestino grosso"
+  },
+  "group": {
+    "id": "intestino-grosso",
+    "title": "Intestino grosso"
+  },
+  "location": "Curva entre reto e canal anal."
+}

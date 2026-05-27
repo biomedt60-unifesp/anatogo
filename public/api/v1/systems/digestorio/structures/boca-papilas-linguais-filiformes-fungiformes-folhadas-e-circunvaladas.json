@@ -1,0 +1,19 @@
+{
+  "id": "boca-papilas-linguais-filiformes-fungiformes-folhadas-e-circunvaladas",
+  "globalId": "digestorio/boca-papilas-linguais-filiformes-fungiformes-folhadas-e-circunvaladas",
+  "name": "Papilas linguais: filiformes, fungiformes, folhadas e circunvaladas",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "boca",
+    "title": "Boca"
+  },
+  "group": {
+    "id": "boca",
+    "title": "Boca"
+  },
+  "location": "No dorso da língua: filiformes cobrem a maior parte; fungiformes mais anteriores; folhadas e circunvaladas na região posterior."
+}

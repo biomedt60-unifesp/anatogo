@@ -1,0 +1,19 @@
+{
+  "id": "boca-angulo-da-boca",
+  "globalId": "digestorio/boca-angulo-da-boca",
+  "name": "Ângulo da boca",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "boca",
+    "title": "Boca"
+  },
+  "group": {
+    "id": "boca",
+    "title": "Boca"
+  },
+  "location": "Cantos da boca, junção dos lábios superior e inferior."
+}

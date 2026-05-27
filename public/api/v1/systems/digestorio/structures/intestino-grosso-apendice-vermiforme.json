@@ -1,0 +1,19 @@
+{
+  "id": "intestino-grosso-apendice-vermiforme",
+  "globalId": "digestorio/intestino-grosso-apendice-vermiforme",
+  "name": "Apêndice vermiforme",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "intestino-grosso",
+    "title": "Intestino grosso"
+  },
+  "group": {
+    "id": "intestino-grosso",
+    "title": "Intestino grosso"
+  },
+  "location": "Projeção do ceco; base na fossa ileocecal."
+}

@@ -1,5 +1,5 @@
 {
-  "count": 63,
+  "count": 145,
   "next": null,
   "previous": null,
   "results": [
@@ -274,49 +274,459 @@
       "url": "/api/v1/systems/reprodutor/structures/utero"
     },
     {
+      "name": "Lábios e bochechas (com corpo adiposo da bochecha)",
+      "slug": "digestorio/boca-labios-e-bochechas-com-corpo-adiposo-da-bochecha",
+      "url": "/api/v1/systems/digestorio/structures/boca-labios-e-bochechas-com-corpo-adiposo-da-bochecha"
+    },
+    {
+      "name": "Rima da boca",
+      "slug": "digestorio/boca-rima-da-boca",
+      "url": "/api/v1/systems/digestorio/structures/boca-rima-da-boca"
+    },
+    {
+      "name": "Ângulo da boca",
+      "slug": "digestorio/boca-angulo-da-boca",
+      "url": "/api/v1/systems/digestorio/structures/boca-angulo-da-boca"
+    },
+    {
+      "name": "Cavidade oral",
+      "slug": "digestorio/boca-cavidade-oral",
+      "url": "/api/v1/systems/digestorio/structures/boca-cavidade-oral"
+    },
+    {
+      "name": "Vestíbulo da boca",
+      "slug": "digestorio/boca-vestibulo-da-boca",
+      "url": "/api/v1/systems/digestorio/structures/boca-vestibulo-da-boca"
+    },
+    {
+      "name": "Cavidade própria da boca",
+      "slug": "digestorio/boca-cavidade-propria-da-boca",
+      "url": "/api/v1/systems/digestorio/structures/boca-cavidade-propria-da-boca"
+    },
+    {
+      "name": "Palato duro",
+      "slug": "digestorio/boca-palato-duro",
+      "url": "/api/v1/systems/digestorio/structures/boca-palato-duro"
+    },
+    {
+      "name": "Palato mole (= véu palatino)",
+      "slug": "digestorio/boca-palato-mole-veu-palatino",
+      "url": "/api/v1/systems/digestorio/structures/boca-palato-mole-veu-palatino"
+    },
+    {
+      "name": "Fauces",
+      "slug": "digestorio/boca-fauces",
+      "url": "/api/v1/systems/digestorio/structures/boca-fauces"
+    },
+    {
+      "name": "Istmo das fauces",
+      "slug": "digestorio/boca-istmo-das-fauces",
+      "url": "/api/v1/systems/digestorio/structures/boca-istmo-das-fauces"
+    },
+    {
+      "name": "Úvula palatina",
+      "slug": "digestorio/boca-uvula-palatina",
+      "url": "/api/v1/systems/digestorio/structures/boca-uvula-palatina"
+    },
+    {
+      "name": "Arco palatoglosso",
+      "slug": "digestorio/boca-arco-palatoglosso",
+      "url": "/api/v1/systems/digestorio/structures/boca-arco-palatoglosso"
+    },
+    {
+      "name": "Tipos de dentes: incisivos, caninos, pré-molares e molares",
+      "slug": "digestorio/boca-tipos-de-dentes-incisivos-caninos-pre-molares-e-molares",
+      "url": "/api/v1/systems/digestorio/structures/boca-tipos-de-dentes-incisivos-caninos-pre-molares-e-molares"
+    },
+    {
       "name": "Língua",
-      "slug": "digestorio/lingua",
-      "url": "/api/v1/systems/digestorio/structures/lingua"
+      "slug": "digestorio/boca-lingua",
+      "url": "/api/v1/systems/digestorio/structures/boca-lingua"
     },
     {
-      "name": "Esôfago",
-      "slug": "digestorio/esofago",
-      "url": "/api/v1/systems/digestorio/structures/esofago"
+      "name": "Raiz da língua",
+      "slug": "digestorio/boca-raiz-da-lingua",
+      "url": "/api/v1/systems/digestorio/structures/boca-raiz-da-lingua"
     },
     {
-      "name": "Estômago",
-      "slug": "digestorio/estomago",
-      "url": "/api/v1/systems/digestorio/structures/estomago"
+      "name": "Corpo da língua",
+      "slug": "digestorio/boca-corpo-da-lingua",
+      "url": "/api/v1/systems/digestorio/structures/boca-corpo-da-lingua"
     },
     {
-      "name": "Fígado",
-      "slug": "digestorio/figado",
-      "url": "/api/v1/systems/digestorio/structures/figado"
+      "name": "Ápice, dorso e margens",
+      "slug": "digestorio/boca-apice-dorso-e-margens",
+      "url": "/api/v1/systems/digestorio/structures/boca-apice-dorso-e-margens"
     },
     {
-      "name": "Vesícula biliar",
-      "slug": "digestorio/vesicula-biliar",
-      "url": "/api/v1/systems/digestorio/structures/vesicula-biliar"
+      "name": "Papilas linguais: filiformes, fungiformes, folhadas e circunvaladas",
+      "slug": "digestorio/boca-papilas-linguais-filiformes-fungiformes-folhadas-e-circunvaladas",
+      "url": "/api/v1/systems/digestorio/structures/boca-papilas-linguais-filiformes-fungiformes-folhadas-e-circunvaladas"
     },
     {
-      "name": "Pâncreas",
-      "slug": "digestorio/pancreas",
-      "url": "/api/v1/systems/digestorio/structures/pancreas"
+      "name": "Tonsilas linguais",
+      "slug": "digestorio/boca-tonsilas-linguais",
+      "url": "/api/v1/systems/digestorio/structures/boca-tonsilas-linguais"
     },
     {
-      "name": "Intestino delgado",
-      "slug": "digestorio/intestino-delgado",
-      "url": "/api/v1/systems/digestorio/structures/intestino-delgado"
+      "name": "Músculos extrínsecos da língua",
+      "slug": "digestorio/boca-musculos-extrinsecos-da-lingua",
+      "url": "/api/v1/systems/digestorio/structures/boca-musculos-extrinsecos-da-lingua"
     },
     {
-      "name": "Cólon",
-      "slug": "digestorio/colon",
-      "url": "/api/v1/systems/digestorio/structures/colon"
+      "name": "M. genioglosso",
+      "slug": "digestorio/boca-m-genioglosso",
+      "url": "/api/v1/systems/digestorio/structures/boca-m-genioglosso"
+    },
+    {
+      "name": "Camada de músculos intrínsecos",
+      "slug": "digestorio/boca-camada-de-musculos-intrinsecos",
+      "url": "/api/v1/systems/digestorio/structures/boca-camada-de-musculos-intrinsecos"
+    },
+    {
+      "name": "Glândulas salivares maiores",
+      "slug": "digestorio/boca-glandulas-salivares-maiores",
+      "url": "/api/v1/systems/digestorio/structures/boca-glandulas-salivares-maiores"
+    },
+    {
+      "name": "Glândula parótida e ducto parotídeo",
+      "slug": "digestorio/boca-glandula-parotida-e-ducto-parotideo",
+      "url": "/api/v1/systems/digestorio/structures/boca-glandula-parotida-e-ducto-parotideo"
+    },
+    {
+      "name": "Glândula submandibular",
+      "slug": "digestorio/boca-glandula-submandibular",
+      "url": "/api/v1/systems/digestorio/structures/boca-glandula-submandibular"
+    },
+    {
+      "name": "Glândula sublingual",
+      "slug": "digestorio/boca-glandula-sublingual",
+      "url": "/api/v1/systems/digestorio/structures/boca-glandula-sublingual"
+    },
+    {
+      "name": "Músculos da mastigação",
+      "slug": "digestorio/boca-musculos-da-mastigacao",
+      "url": "/api/v1/systems/digestorio/structures/boca-musculos-da-mastigacao"
+    },
+    {
+      "name": "M. temporal",
+      "slug": "digestorio/boca-m-temporal",
+      "url": "/api/v1/systems/digestorio/structures/boca-m-temporal"
+    },
+    {
+      "name": "M. masseter",
+      "slug": "digestorio/boca-m-masseter",
+      "url": "/api/v1/systems/digestorio/structures/boca-m-masseter"
+    },
+    {
+      "name": "Mm. pterigoideos lateral e medial",
+      "slug": "digestorio/boca-mm-pterigoideos-lateral-e-medial",
+      "url": "/api/v1/systems/digestorio/structures/boca-mm-pterigoideos-lateral-e-medial"
+    },
+    {
+      "name": "Músculos supra-hioideos",
+      "slug": "digestorio/boca-musculos-supra-hioideos",
+      "url": "/api/v1/systems/digestorio/structures/boca-musculos-supra-hioideos"
+    },
+    {
+      "name": "M. digástrico",
+      "slug": "digestorio/boca-m-digastrico",
+      "url": "/api/v1/systems/digestorio/structures/boca-m-digastrico"
+    },
+    {
+      "name": "M. milo-hióideo (este constitui o “diafragma oral”)",
+      "slug": "digestorio/boca-m-milo-hioideo-este-constitui-o-diafragma-oral",
+      "url": "/api/v1/systems/digestorio/structures/boca-m-milo-hioideo-este-constitui-o-diafragma-oral"
+    },
+    {
+      "name": "Parte nasal da faringe",
+      "slug": "digestorio/faringe-parte-nasal-da-faringe",
+      "url": "/api/v1/systems/digestorio/structures/faringe-parte-nasal-da-faringe"
+    },
+    {
+      "name": "Parte oral da faringe",
+      "slug": "digestorio/faringe-parte-oral-da-faringe",
+      "url": "/api/v1/systems/digestorio/structures/faringe-parte-oral-da-faringe"
+    },
+    {
+      "name": "Fauces",
+      "slug": "digestorio/faringe-fauces",
+      "url": "/api/v1/systems/digestorio/structures/faringe-fauces"
+    },
+    {
+      "name": "Arco palatofaríngeo",
+      "slug": "digestorio/faringe-arco-palatofaringeo",
+      "url": "/api/v1/systems/digestorio/structures/faringe-arco-palatofaringeo"
+    },
+    {
+      "name": "Fossa tonsilar",
+      "slug": "digestorio/faringe-fossa-tonsilar",
+      "url": "/api/v1/systems/digestorio/structures/faringe-fossa-tonsilar"
+    },
+    {
+      "name": "Tonsila palatina",
+      "slug": "digestorio/faringe-tonsila-palatina",
+      "url": "/api/v1/systems/digestorio/structures/faringe-tonsila-palatina"
+    },
+    {
+      "name": "Parte laríngea da faringe",
+      "slug": "digestorio/faringe-parte-laringea-da-faringe",
+      "url": "/api/v1/systems/digestorio/structures/faringe-parte-laringea-da-faringe"
+    },
+    {
+      "name": "Músculos da faringe",
+      "slug": "digestorio/faringe-musculos-da-faringe",
+      "url": "/api/v1/systems/digestorio/structures/faringe-musculos-da-faringe"
+    },
+    {
+      "name": "M. constritor superior da faringe",
+      "slug": "digestorio/faringe-m-constritor-superior-da-faringe",
+      "url": "/api/v1/systems/digestorio/structures/faringe-m-constritor-superior-da-faringe"
+    },
+    {
+      "name": "M. constritor médio da faringe",
+      "slug": "digestorio/faringe-m-constritor-medio-da-faringe",
+      "url": "/api/v1/systems/digestorio/structures/faringe-m-constritor-medio-da-faringe"
+    },
+    {
+      "name": "M. constritor inferior da faringe",
+      "slug": "digestorio/faringe-m-constritor-inferior-da-faringe",
+      "url": "/api/v1/systems/digestorio/structures/faringe-m-constritor-inferior-da-faringe"
+    },
+    {
+      "name": "Partes cervical, torácica e abdominal (estabelecer os limites)",
+      "slug": "digestorio/esofago-partes-cervical-toracica-e-abdominal-estabelecer-os-limites",
+      "url": "/api/v1/systems/digestorio/structures/esofago-partes-cervical-toracica-e-abdominal-estabelecer-os-limites"
+    },
+    {
+      "name": "Paredes anterior e posterior",
+      "slug": "digestorio/estomago-paredes-anterior-e-posterior",
+      "url": "/api/v1/systems/digestorio/structures/estomago-paredes-anterior-e-posterior"
+    },
+    {
+      "name": "Cárdia, fundo gástrico, corpo gástrico e parte pilórica",
+      "slug": "digestorio/estomago-cardia-fundo-gastrico-corpo-gastrico-e-parte-pilorica",
+      "url": "/api/v1/systems/digestorio/structures/estomago-cardia-fundo-gastrico-corpo-gastrico-e-parte-pilorica"
+    },
+    {
+      "name": "Curvaturas maior e menor",
+      "slug": "digestorio/estomago-curvaturas-maior-e-menor",
+      "url": "/api/v1/systems/digestorio/structures/estomago-curvaturas-maior-e-menor"
+    },
+    {
+      "name": "Piloro (na transição entre estômago e duodeno)",
+      "slug": "digestorio/estomago-piloro-na-transicao-entre-estomago-e-duodeno",
+      "url": "/api/v1/systems/digestorio/structures/estomago-piloro-na-transicao-entre-estomago-e-duodeno"
+    },
+    {
+      "name": "Omentos maior e menor (projeção de peritônio)",
+      "slug": "digestorio/estomago-omentos-maior-e-menor-projecao-de-peritonio",
+      "url": "/api/v1/systems/digestorio/structures/estomago-omentos-maior-e-menor-projecao-de-peritonio"
+    },
+    {
+      "name": "Duodeno",
+      "slug": "digestorio/intestino-delgado-duodeno",
+      "url": "/api/v1/systems/digestorio/structures/intestino-delgado-duodeno"
+    },
+    {
+      "name": "Parte superior",
+      "slug": "digestorio/intestino-delgado-parte-superior",
+      "url": "/api/v1/systems/digestorio/structures/intestino-delgado-parte-superior"
+    },
+    {
+      "name": "Parte descendente",
+      "slug": "digestorio/intestino-delgado-parte-descendente",
+      "url": "/api/v1/systems/digestorio/structures/intestino-delgado-parte-descendente"
+    },
+    {
+      "name": "Papila maior do duodeno",
+      "slug": "digestorio/intestino-delgado-papila-maior-do-duodeno",
+      "url": "/api/v1/systems/digestorio/structures/intestino-delgado-papila-maior-do-duodeno"
+    },
+    {
+      "name": "Parte horizontal",
+      "slug": "digestorio/intestino-delgado-parte-horizontal",
+      "url": "/api/v1/systems/digestorio/structures/intestino-delgado-parte-horizontal"
+    },
+    {
+      "name": "Parte ascendente",
+      "slug": "digestorio/intestino-delgado-parte-ascendente",
+      "url": "/api/v1/systems/digestorio/structures/intestino-delgado-parte-ascendente"
+    },
+    {
+      "name": "Flexura duodenojejunal",
+      "slug": "digestorio/intestino-delgado-flexura-duodenojejunal",
+      "url": "/api/v1/systems/digestorio/structures/intestino-delgado-flexura-duodenojejunal"
+    },
+    {
+      "name": "Jejuno e íleo (constituem as alças intestinais)",
+      "slug": "digestorio/intestino-delgado-jejuno-e-ileo-constituem-as-alcas-intestinais",
+      "url": "/api/v1/systems/digestorio/structures/intestino-delgado-jejuno-e-ileo-constituem-as-alcas-intestinais"
+    },
+    {
+      "name": "Mesentério (fixa o jejuno-íleo à parede posterior do abdome)",
+      "slug": "digestorio/intestino-delgado-mesenterio-fixa-o-jejuno-ileo-a-parede-posterior-do-abdome",
+      "url": "/api/v1/systems/digestorio/structures/intestino-delgado-mesenterio-fixa-o-jejuno-ileo-a-parede-posterior-do-abdome"
+    },
+    {
+      "name": "Parte terminal do íleo",
+      "slug": "digestorio/intestino-delgado-parte-terminal-do-ileo",
+      "url": "/api/v1/systems/digestorio/structures/intestino-delgado-parte-terminal-do-ileo"
+    },
+    {
+      "name": "Ceco",
+      "slug": "digestorio/intestino-grosso-ceco",
+      "url": "/api/v1/systems/digestorio/structures/intestino-grosso-ceco"
+    },
+    {
+      "name": "Apêndice vermiforme",
+      "slug": "digestorio/intestino-grosso-apendice-vermiforme",
+      "url": "/api/v1/systems/digestorio/structures/intestino-grosso-apendice-vermiforme"
+    },
+    {
+      "name": "Colo ascendente",
+      "slug": "digestorio/intestino-grosso-colo-ascendente",
+      "url": "/api/v1/systems/digestorio/structures/intestino-grosso-colo-ascendente"
+    },
+    {
+      "name": "Flexura direita do colo",
+      "slug": "digestorio/intestino-grosso-flexura-direita-do-colo",
+      "url": "/api/v1/systems/digestorio/structures/intestino-grosso-flexura-direita-do-colo"
+    },
+    {
+      "name": "Colo transverso",
+      "slug": "digestorio/intestino-grosso-colo-transverso",
+      "url": "/api/v1/systems/digestorio/structures/intestino-grosso-colo-transverso"
+    },
+    {
+      "name": "Mesocolo transverso",
+      "slug": "digestorio/intestino-grosso-mesocolo-transverso",
+      "url": "/api/v1/systems/digestorio/structures/intestino-grosso-mesocolo-transverso"
+    },
+    {
+      "name": "Flexura esquerda do colo",
+      "slug": "digestorio/intestino-grosso-flexura-esquerda-do-colo",
+      "url": "/api/v1/systems/digestorio/structures/intestino-grosso-flexura-esquerda-do-colo"
+    },
+    {
+      "name": "Colo descendente",
+      "slug": "digestorio/intestino-grosso-colo-descendente",
+      "url": "/api/v1/systems/digestorio/structures/intestino-grosso-colo-descendente"
+    },
+    {
+      "name": "Colo sigmoide",
+      "slug": "digestorio/intestino-grosso-colo-sigmoide",
+      "url": "/api/v1/systems/digestorio/structures/intestino-grosso-colo-sigmoide"
+    },
+    {
+      "name": "Mesocolo sigmoide",
+      "slug": "digestorio/intestino-grosso-mesocolo-sigmoide",
+      "url": "/api/v1/systems/digestorio/structures/intestino-grosso-mesocolo-sigmoide"
+    },
+    {
+      "name": "Saculações do colo",
+      "slug": "digestorio/intestino-grosso-saculacoes-do-colo",
+      "url": "/api/v1/systems/digestorio/structures/intestino-grosso-saculacoes-do-colo"
+    },
+    {
+      "name": "Apêndices omentais do colo",
+      "slug": "digestorio/intestino-grosso-apendices-omentais-do-colo",
+      "url": "/api/v1/systems/digestorio/structures/intestino-grosso-apendices-omentais-do-colo"
+    },
+    {
+      "name": "Tênias do colo (fitas musculares características do ceco e colos)",
+      "slug": "digestorio/intestino-grosso-tenias-do-colo-fitas-musculares-caracteristicas-do-ceco-e-colos",
+      "url": "/api/v1/systems/digestorio/structures/intestino-grosso-tenias-do-colo-fitas-musculares-caracteristicas-do-ceco-e-colos"
     },
     {
       "name": "Reto",
-      "slug": "digestorio/reto",
-      "url": "/api/v1/systems/digestorio/structures/reto"
+      "slug": "digestorio/intestino-grosso-reto",
+      "url": "/api/v1/systems/digestorio/structures/intestino-grosso-reto"
+    },
+    {
+      "name": "Pregas transversais do reto",
+      "slug": "digestorio/intestino-grosso-pregas-transversais-do-reto",
+      "url": "/api/v1/systems/digestorio/structures/intestino-grosso-pregas-transversais-do-reto"
+    },
+    {
+      "name": "Ampola do reto",
+      "slug": "digestorio/intestino-grosso-ampola-do-reto",
+      "url": "/api/v1/systems/digestorio/structures/intestino-grosso-ampola-do-reto"
+    },
+    {
+      "name": "Canal anal",
+      "slug": "digestorio/intestino-grosso-canal-anal",
+      "url": "/api/v1/systems/digestorio/structures/intestino-grosso-canal-anal"
+    },
+    {
+      "name": "Flexura anorretal",
+      "slug": "digestorio/intestino-grosso-flexura-anorretal",
+      "url": "/api/v1/systems/digestorio/structures/intestino-grosso-flexura-anorretal"
+    },
+    {
+      "name": "Colunas anais",
+      "slug": "digestorio/intestino-grosso-colunas-anais",
+      "url": "/api/v1/systems/digestorio/structures/intestino-grosso-colunas-anais"
+    },
+    {
+      "name": "Mm. esfíncteres externo e interno do ânus",
+      "slug": "digestorio/intestino-grosso-mm-esfincteres-externo-e-interno-do-anus",
+      "url": "/api/v1/systems/digestorio/structures/intestino-grosso-mm-esfincteres-externo-e-interno-do-anus"
+    },
+    {
+      "name": "Ânus (abertura do canal anal para o meio exterior)",
+      "slug": "digestorio/intestino-grosso-anus-abertura-do-canal-anal-para-o-meio-exterior",
+      "url": "/api/v1/systems/digestorio/structures/intestino-grosso-anus-abertura-do-canal-anal-para-o-meio-exterior"
+    },
+    {
+      "name": "Faces diafragmática e visceral",
+      "slug": "digestorio/figado-faces-diafragmatica-e-visceral",
+      "url": "/api/v1/systems/digestorio/structures/figado-faces-diafragmatica-e-visceral"
+    },
+    {
+      "name": "Lobos hepático direito, hepático esquerdo, quadrado e caudado",
+      "slug": "digestorio/figado-lobos-hepatico-direito-hepatico-esquerdo-quadrado-e-caudado",
+      "url": "/api/v1/systems/digestorio/structures/figado-lobos-hepatico-direito-hepatico-esquerdo-quadrado-e-caudado"
+    },
+    {
+      "name": "Porta do fígado (= hilo, por onde passam estruturas do pedículo do fígado)",
+      "slug": "digestorio/figado-porta-do-figado-hilo-por-onde-passam-estruturas-do-pediculo-do-figado",
+      "url": "/api/v1/systems/digestorio/structures/figado-porta-do-figado-hilo-por-onde-passam-estruturas-do-pediculo-do-figado"
+    },
+    {
+      "name": "Pedículo do fígado: v. porta, a. hepática própria e ducto hepático comum",
+      "slug": "digestorio/figado-pediculo-do-figado-v-porta-a-hepatica-propria-e-ducto-hepatico-comum",
+      "url": "/api/v1/systems/digestorio/structures/figado-pediculo-do-figado-v-porta-a-hepatica-propria-e-ducto-hepatico-comum"
+    },
+    {
+      "name": "Ligamentos falciforme e redondo do fígado",
+      "slug": "digestorio/figado-ligamentos-falciforme-e-redondo-do-figado",
+      "url": "/api/v1/systems/digestorio/structures/figado-ligamentos-falciforme-e-redondo-do-figado"
+    },
+    {
+      "name": "Vesícula biliar",
+      "slug": "digestorio/figado-vesicula-biliar",
+      "url": "/api/v1/systems/digestorio/structures/figado-vesicula-biliar"
+    },
+    {
+      "name": "Ducto hepático comum, ducto cístico e ducto colédoco (ampola hepatopancreática)",
+      "slug": "digestorio/figado-ducto-hepatico-comum-ducto-cistico-e-ducto-coledoco-ampola-hepatopancreatica",
+      "url": "/api/v1/systems/digestorio/structures/figado-ducto-hepatico-comum-ducto-cistico-e-ducto-coledoco-ampola-hepatopancreatica"
+    },
+    {
+      "name": "Cabeça, colo, corpo e cauda do pâncreas",
+      "slug": "digestorio/pancreas-cabeca-colo-corpo-e-cauda-do-pancreas",
+      "url": "/api/v1/systems/digestorio/structures/pancreas-cabeca-colo-corpo-e-cauda-do-pancreas"
+    },
+    {
+      "name": "Ducto pancreático",
+      "slug": "digestorio/pancreas-ducto-pancreatico",
+      "url": "/api/v1/systems/digestorio/structures/pancreas-ducto-pancreatico"
+    },
+    {
+      "name": "Peritônio parietal e peritônio visceral",
+      "slug": "digestorio/peritonio-peritonio-parietal-e-peritonio-visceral",
+      "url": "/api/v1/systems/digestorio/structures/peritonio-peritonio-parietal-e-peritonio-visceral"
     }
   ]
 }

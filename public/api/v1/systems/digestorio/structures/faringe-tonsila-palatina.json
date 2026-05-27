@@ -1,0 +1,19 @@
+{
+  "id": "faringe-tonsila-palatina",
+  "globalId": "digestorio/faringe-tonsila-palatina",
+  "name": "Tonsila palatina",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "faringe",
+    "title": "Faringe"
+  },
+  "group": {
+    "id": "faringe",
+    "title": "Faringe"
+  },
+  "location": "Agregado linfóide na fossa tonsilar, lateral da orofaringe."
+}

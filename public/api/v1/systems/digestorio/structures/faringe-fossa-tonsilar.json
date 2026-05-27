@@ -1,0 +1,19 @@
+{
+  "id": "faringe-fossa-tonsilar",
+  "globalId": "digestorio/faringe-fossa-tonsilar",
+  "name": "Fossa tonsilar",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "faringe",
+    "title": "Faringe"
+  },
+  "group": {
+    "id": "faringe",
+    "title": "Faringe"
+  },
+  "location": "Depressão entre arcos palatoglosso e palatofaríngeo (leito da tonsila)."
+}

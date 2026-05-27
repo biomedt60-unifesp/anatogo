@@ -1,0 +1,19 @@
+{
+  "id": "intestino-grosso-mesocolo-transverso",
+  "globalId": "digestorio/intestino-grosso-mesocolo-transverso",
+  "name": "Mesocolo transverso",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "intestino-grosso",
+    "title": "Intestino grosso"
+  },
+  "group": {
+    "id": "intestino-grosso",
+    "title": "Intestino grosso"
+  },
+  "location": "Peritônio que sustenta o colo transverso."
+}

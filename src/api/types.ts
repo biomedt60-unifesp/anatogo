@@ -22,6 +22,8 @@ export type AnatoApiStructure = {
   system: AnatoApiResourceLink
   section?: { id: string; title: string }
   group?: { id: string; title: string }
+  /** Dica para localizar a estrutura */
+  location?: string
 }
 
 export type AnatoApiSystemSummary = AnatoApiResourceLink & {

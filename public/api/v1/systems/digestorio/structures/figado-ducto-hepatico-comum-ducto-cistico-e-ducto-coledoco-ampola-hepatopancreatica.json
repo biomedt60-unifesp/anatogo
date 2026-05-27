@@ -1,0 +1,19 @@
+{
+  "id": "figado-ducto-hepatico-comum-ducto-cistico-e-ducto-coledoco-ampola-hepatopancreatica",
+  "globalId": "digestorio/figado-ducto-hepatico-comum-ducto-cistico-e-ducto-coledoco-ampola-hepatopancreatica",
+  "name": "Ducto hepático comum, ducto cístico e ducto colédoco (ampola hepatopancreática)",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "figado",
+    "title": "Fígado"
+  },
+  "group": {
+    "id": "figado",
+    "title": "Fígado"
+  },
+  "location": "Cístico sai da vesícula; comum + cístico → colédoco → papila maior do duodeno."
+}

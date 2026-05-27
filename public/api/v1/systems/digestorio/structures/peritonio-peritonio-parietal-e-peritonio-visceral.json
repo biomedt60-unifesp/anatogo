@@ -1,0 +1,19 @@
+{
+  "id": "peritonio-peritonio-parietal-e-peritonio-visceral",
+  "globalId": "digestorio/peritonio-peritonio-parietal-e-peritonio-visceral",
+  "name": "Peritônio parietal e peritônio visceral",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "peritonio",
+    "title": "Peritônio"
+  },
+  "group": {
+    "id": "peritonio",
+    "title": "Peritônio"
+  },
+  "location": "Parietal = reveste parede abdominal; visceral = cobre superfície dos órgãos."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "estomago-piloro-na-transicao-entre-estomago-e-duodeno",
+  "globalId": "digestorio/estomago-piloro-na-transicao-entre-estomago-e-duodeno",
+  "name": "Piloro (na transição entre estômago e duodeno)",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "estomago",
+    "title": "Estômago"
+  },
+  "group": {
+    "id": "estomago",
+    "title": "Estômago"
+  },
+  "location": "Canal pilórico + esfíncter; região distal que continua no duodeno."
+}

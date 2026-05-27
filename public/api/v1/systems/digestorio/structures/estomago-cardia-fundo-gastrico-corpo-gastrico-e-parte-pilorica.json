@@ -1,0 +1,19 @@
+{
+  "id": "estomago-cardia-fundo-gastrico-corpo-gastrico-e-parte-pilorica",
+  "globalId": "digestorio/estomago-cardia-fundo-gastrico-corpo-gastrico-e-parte-pilorica",
+  "name": "Cárdia, fundo gástrico, corpo gástrico e parte pilórica",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "estomago",
+    "title": "Estômago"
+  },
+  "group": {
+    "id": "estomago",
+    "title": "Estômago"
+  },
+  "location": "Cárdia = junção com esôfago; fundo = cúpula superior; corpo = região central; piloro = porção distal."
+}

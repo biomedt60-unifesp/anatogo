@@ -1,0 +1,19 @@
+{
+  "id": "intestino-grosso-apendices-omentais-do-colo",
+  "globalId": "digestorio/intestino-grosso-apendices-omentais-do-colo",
+  "name": "Apêndices omentais do colo",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "intestino-grosso",
+    "title": "Intestino grosso"
+  },
+  "group": {
+    "id": "intestino-grosso",
+    "title": "Intestino grosso"
+  },
+  "location": "Gordura na superfície serosa do colo (epiploicas)."
+}

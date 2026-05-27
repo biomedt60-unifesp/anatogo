@@ -1,4 +1,4 @@
-import type { EstruturaGrupo, EstruturaItem, EstruturaSecao } from '../data/structureTypes'
+import type { EstruturaGrupo, EstruturaSecao } from '../data/structureTypes'
 
 export function slugifyRoteiroId(nome: string): string {
   return nome
@@ -9,15 +9,20 @@ export function slugifyRoteiroId(nome: string): string {
     .replace(/^-|-$/g, '')
 }
 
-function item(nome: string): EstruturaItem {
-  return { id: slugifyRoteiroId(nome), nome }
-}
-
-export function grupoRoteiro(id: string, titulo: string, nomes: string[]): EstruturaGrupo {
+export function grupoRoteiro(
+  id: string,
+  titulo: string,
+  nomes: string[],
+  /** Evita colisão de id quando o mesmo nome aparece em seções diferentes */
+  idPrefix?: string,
+): EstruturaGrupo {
   return {
     id,
     titulo,
-    estruturas: nomes.map((nome) => item(nome)),
+    estruturas: nomes.map((nome) => {
+      const baseId = slugifyRoteiroId(nome)
+      return { id: idPrefix ? `${idPrefix}-${baseId}` : baseId, nome }
+    }),
   }
 }
 

@@ -72,7 +72,7 @@
       "slug": "digestorio",
       "tipo": "Digestão",
       "emoji": "🍽️",
-      "structureCount": 9,
+      "structureCount": 91,
       "url": "/api/v1/systems/digestorio"
     }
   ]

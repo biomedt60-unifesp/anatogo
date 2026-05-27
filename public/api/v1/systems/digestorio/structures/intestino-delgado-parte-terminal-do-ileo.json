@@ -1,0 +1,19 @@
+{
+  "id": "intestino-delgado-parte-terminal-do-ileo",
+  "globalId": "digestorio/intestino-delgado-parte-terminal-do-ileo",
+  "name": "Parte terminal do íleo",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "intestino-delgado",
+    "title": "Intestino delgado"
+  },
+  "group": {
+    "id": "intestino-delgado",
+    "title": "Intestino delgado"
+  },
+  "location": "Último segmento do íleo, antes da válvula ileocecal."
+}

@@ -51,6 +51,7 @@ function toStructures(entry: AnatoEntry): AnatoApiStructure[] {
           ? { id: secao.id, title: secao.titulo }
           : undefined,
         group: { id: grupo.id, title: grupo.titulo },
+        ...(item.localizacao ? { location: item.localizacao } : {}),
       })),
     ),
   )

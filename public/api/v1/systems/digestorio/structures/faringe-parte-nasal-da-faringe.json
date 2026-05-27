@@ -1,0 +1,19 @@
+{
+  "id": "faringe-parte-nasal-da-faringe",
+  "globalId": "digestorio/faringe-parte-nasal-da-faringe",
+  "name": "Parte nasal da faringe",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "faringe",
+    "title": "Faringe"
+  },
+  "group": {
+    "id": "faringe",
+    "title": "Faringe"
+  },
+  "location": "Acima do palato mole; continua das coanas (não visível pela boca)."
+}

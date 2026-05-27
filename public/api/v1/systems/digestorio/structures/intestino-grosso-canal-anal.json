@@ -1,0 +1,19 @@
+{
+  "id": "intestino-grosso-canal-anal",
+  "globalId": "digestorio/intestino-grosso-canal-anal",
+  "name": "Canal anal",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "intestino-grosso",
+    "title": "Intestino grosso"
+  },
+  "group": {
+    "id": "intestino-grosso",
+    "title": "Intestino grosso"
+  },
+  "location": "Último trecho do tubo digestivo, com esfíncteres."
+}

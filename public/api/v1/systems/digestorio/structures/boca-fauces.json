@@ -1,0 +1,19 @@
+{
+  "id": "boca-fauces",
+  "globalId": "digestorio/boca-fauces",
+  "name": "Fauces",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "boca",
+    "title": "Boca"
+  },
+  "group": {
+    "id": "boca",
+    "title": "Boca"
+  },
+  "location": "Abertura posterior da cavidade oral em direção à faringe."
+}

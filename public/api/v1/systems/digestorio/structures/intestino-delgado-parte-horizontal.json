@@ -1,0 +1,19 @@
+{
+  "id": "intestino-delgado-parte-horizontal",
+  "globalId": "digestorio/intestino-delgado-parte-horizontal",
+  "name": "Parte horizontal",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "intestino-delgado",
+    "title": "Intestino delgado"
+  },
+  "group": {
+    "id": "intestino-delgado",
+    "title": "Intestino delgado"
+  },
+  "location": "3.ª porção transversa do duodeno."
+}

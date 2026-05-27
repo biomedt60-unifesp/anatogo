@@ -1,0 +1,19 @@
+{
+  "id": "intestino-grosso-colo-sigmoide",
+  "globalId": "digestorio/intestino-grosso-colo-sigmoide",
+  "name": "Colo sigmoide",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "intestino-grosso",
+    "title": "Intestino grosso"
+  },
+  "group": {
+    "id": "intestino-grosso",
+    "title": "Intestino grosso"
+  },
+  "location": "Porção em “S” antes do reto, na pelve."
+}

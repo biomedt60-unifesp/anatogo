@@ -1,0 +1,19 @@
+{
+  "id": "boca-arco-palatoglosso",
+  "globalId": "digestorio/boca-arco-palatoglosso",
+  "name": "Arco palatoglosso",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "boca",
+    "title": "Boca"
+  },
+  "group": {
+    "id": "boca",
+    "title": "Boca"
+  },
+  "location": "Dobra na parede lateral da faringe, entre palato e língua."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "intestino-grosso-mm-esfincteres-externo-e-interno-do-anus",
+  "globalId": "digestorio/intestino-grosso-mm-esfincteres-externo-e-interno-do-anus",
+  "name": "Mm. esfíncteres externo e interno do ânus",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "intestino-grosso",
+    "title": "Intestino grosso"
+  },
+  "group": {
+    "id": "intestino-grosso",
+    "title": "Intestino grosso"
+  },
+  "location": "Interno = liso (mucosa/muscular); externo = estriado, voluntário, ao redor do canal."
+}

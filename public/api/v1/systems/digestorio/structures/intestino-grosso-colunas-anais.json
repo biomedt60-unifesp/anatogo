@@ -1,0 +1,19 @@
+{
+  "id": "intestino-grosso-colunas-anais",
+  "globalId": "digestorio/intestino-grosso-colunas-anais",
+  "name": "Colunas anais",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "intestino-grosso",
+    "title": "Intestino grosso"
+  },
+  "group": {
+    "id": "intestino-grosso",
+    "title": "Intestino grosso"
+  },
+  "location": "Pregas longitudinais da mucosa no canal anal."
+}

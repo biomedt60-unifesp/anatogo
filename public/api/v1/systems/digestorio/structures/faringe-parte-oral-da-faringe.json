@@ -1,0 +1,19 @@
+{
+  "id": "faringe-parte-oral-da-faringe",
+  "globalId": "digestorio/faringe-parte-oral-da-faringe",
+  "name": "Parte oral da faringe",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "faringe",
+    "title": "Faringe"
+  },
+  "group": {
+    "id": "faringe",
+    "title": "Faringe"
+  },
+  "location": "Atrás da cavidade oral, entre palato mole e epiglote."
+}

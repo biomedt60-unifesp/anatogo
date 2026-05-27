@@ -1,0 +1,19 @@
+{
+  "id": "intestino-grosso-ceco",
+  "globalId": "digestorio/intestino-grosso-ceco",
+  "name": "Ceco",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "intestino-grosso",
+    "title": "Intestino grosso"
+  },
+  "group": {
+    "id": "intestino-grosso",
+    "title": "Intestino grosso"
+  },
+  "location": "Bolsa inicial do grosso, íleo entra pela válvula ileocecal."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "boca-vestibulo-da-boca",
+  "globalId": "digestorio/boca-vestibulo-da-boca",
+  "name": "Vestíbulo da boca",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "boca",
+    "title": "Boca"
+  },
+  "group": {
+    "id": "boca",
+    "title": "Boca"
+  },
+  "location": "Espaço entre lábios/cheeks e dentes — “antessala” da cavidade."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "intestino-delgado-duodeno",
+  "globalId": "digestorio/intestino-delgado-duodeno",
+  "name": "Duodeno",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "intestino-delgado",
+    "title": "Intestino delgado"
+  },
+  "group": {
+    "id": "intestino-delgado",
+    "title": "Intestino delgado"
+  },
+  "location": "Primeira porção do delgado, em forma de “C” ao redor da cabeça do pâncreas."
+}

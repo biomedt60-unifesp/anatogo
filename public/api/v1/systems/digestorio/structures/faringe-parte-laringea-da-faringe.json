@@ -1,0 +1,19 @@
+{
+  "id": "faringe-parte-laringea-da-faringe",
+  "globalId": "digestorio/faringe-parte-laringea-da-faringe",
+  "name": "Parte laríngea da faringe",
+  "system": {
+    "name": "Sistema digestório",
+    "slug": "digestorio",
+    "url": "/api/v1/systems/digestorio"
+  },
+  "section": {
+    "id": "faringe",
+    "title": "Faringe"
+  },
+  "group": {
+    "id": "faringe",
+    "title": "Faringe"
+  },
+  "location": "Atrás da laringe, acima do esôfago; continua na hipofaringe."
+}

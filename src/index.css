@@ -492,12 +492,15 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100svh;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .go-presentation-spotlight {
   position: absolute;
-  inset: 0;
+  left: 0;
+  right: 0;
+  top: calc(-1 * var(--top-reserve));
+  bottom: 0;
   z-index: 0;
   background: #3d9199;
   clip-path: polygon(34% 0%, 66% 0%, 100% 100%, 0% 100%);
@@ -1136,7 +1139,22 @@ body {
 
 /* Estruturas — lista registrável */
 .go-structure-section {
+  position: relative;
   margin-top: 1.25rem;
+}
+
+.go-structure-part + .go-structure-part {
+  margin-top: 1.25rem;
+}
+
+.go-structure-part-title {
+  margin: 0 0 0.5rem;
+  padding: 0 0.25rem;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-go-muted);
 }
 
 .go-structure-list {
@@ -1147,11 +1165,107 @@ body {
   flex-direction: column;
   background: var(--color-go-card);
   border-radius: var(--radius-lg);
-  overflow: hidden;
+  overflow: visible;
 }
 
-.go-structure-list li + li {
-  border-top: 0.5px solid var(--color-go-separator);
+.go-structure-row {
+  display: flex;
+  align-items: stretch;
+  border-top: 1px solid var(--color-go-border, rgba(255, 255, 255, 0.06));
+}
+
+.go-structure-list > .go-structure-row:first-child {
+  border-top: none;
+}
+
+.go-structure-part {
+  position: relative;
+  z-index: 0;
+}
+
+.go-structure-part:has(.go-structure-info-btn[aria-expanded='true']) {
+  z-index: 10;
+}
+
+.go-structure-row .go-structure-item {
+  flex: 1;
+  min-width: 0;
+  border-top: none;
+}
+
+.go-structure-info-wrap {
+  position: relative;
+  z-index: 2;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  padding: 0 0.35rem;
+  background: var(--color-go-card);
+  border-left: 1px solid var(--color-go-border, rgba(255, 255, 255, 0.06));
+}
+
+.go-structure-info-wrap:has(.go-structure-info-btn[aria-expanded='true']) {
+  z-index: 40;
+}
+
+.go-structure-info-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: var(--color-go-card-muted);
+  color: var(--color-go-muted);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.go-structure-info-btn[aria-expanded='true'] {
+  color: var(--color-go-text);
+  background: var(--color-go-highlight);
+}
+
+.go-structure-info-tip {
+  position: absolute;
+  right: 0;
+  bottom: calc(100% + 0.35rem);
+  z-index: 50;
+  width: min(17.5rem, calc(100vw - 2.5rem));
+  padding: 0.65rem 0.75rem;
+  border-radius: var(--radius-md, 10px);
+  background: var(--color-go-elevated, #1c1c1e);
+  border: 1px solid var(--color-go-border, rgba(255, 255, 255, 0.1));
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+  font-size: 0.8125rem;
+  font-weight: 400;
+  line-height: 1.45;
+  letter-spacing: -0.01em;
+  color: var(--color-go-text);
+  text-align: left;
+}
+
+.go-structure-list > .go-structure-row:first-child .go-structure-item,
+.go-structure-list > .go-structure-row:first-child .go-structure-info-wrap {
+  border-radius: 0;
+}
+
+.go-structure-list > .go-structure-row:first-child .go-structure-item {
+  border-top-left-radius: var(--radius-lg);
+}
+
+.go-structure-list > .go-structure-row:first-child .go-structure-info-wrap {
+  border-top-right-radius: var(--radius-lg);
+}
+
+.go-structure-list > .go-structure-row:last-child .go-structure-item {
+  border-bottom-left-radius: var(--radius-lg);
+}
+
+.go-structure-list > .go-structure-row:last-child .go-structure-info-wrap {
+  border-bottom-right-radius: var(--radius-lg);
 }
 
 .go-structure-list li {
